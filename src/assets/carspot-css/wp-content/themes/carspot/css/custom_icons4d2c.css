@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'downtown-icons';
     src: url("../fonts/downtown-icons7787.eot?-ba5cwy");
-    src: url("../fonts/downtown-iconsd41d.eot?#iefix-ba5cwy") format("embedded-opentype"), url("../fonts/mc-categories7787.html?-ba5cwy") format("woff2"), url("../fonts/downtown-icons7787.ttf?-ba5cwy") format("truetype"), url("../fonts/mc-categories7787-2.html?-ba5cwy") format("woff");
+    /*src: url("../fonts/downtown-iconsd41d.eot?#iefix-ba5cwy") format("embedded-opentype"), url("../fonts/mc-categories7787.html?-ba5cwy") format("woff2"), url("../fonts/downtown-icons7787.ttf?-ba5cwy") format("truetype"), url("../fonts/mc-categories7787-2.html?-ba5cwy") format("woff");*/
     font-weight: normal;
     font-style: normal
 }

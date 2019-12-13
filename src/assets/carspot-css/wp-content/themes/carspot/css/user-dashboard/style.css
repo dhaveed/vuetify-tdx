@@ -1554,7 +1554,7 @@ ul.activity-list > li .timestamp {
 	width: 58%;
 	height: 100%;
 	position: relative;
-	background-image: url("../../assets/img/login-bg.jpg");
+	/*background-image: url("../../assets/img/login-bg.jpg");*/
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -1752,7 +1752,7 @@ ul.activity-list > li .timestamp {
 .profile-header .profile-main {
 	position: relative;
 	padding: 20px;
-	background-image: url("../../assets/img/profile-bg.png");
+	/*background-image: url("../../assets/img/profile-bg.png");*/
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -2570,7 +2570,7 @@ ul.activity-timeline > li:last-child:after {
 	position:relative;
 }
 .dashboard-main .contact-box .contact-box-bg{
-	background-image:url(../../images/dashbord-card-bg.png);
+	/*background-image:url(../../images/dashbord-card-bg.png);*/
 	background-attachment:scroll;
 	/* background-color:#2B333E; */
 	height:120px;
@@ -2827,7 +2827,7 @@ ul.activity-timeline > li:last-child:after {
 	overflow:hidden;
 }
 .review-content-box .review-content-meta {
-	position relative;	
+	position:relative;	
 }
 .review-box .review-author-name {
 	width:100%;

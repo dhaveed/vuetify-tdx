@@ -1235,7 +1235,7 @@ img.resize {
     height: 550px
 }
 .main-search.home2 {
-    background: rgba(0, 0, 0, 0) url("../images/banner-10.html") no-repeat scroll center center / cover;
+    /*background: rgba(0, 0, 0, 0) url("../images/banner-10.html") no-repeat scroll center center / cover;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1249,7 +1249,7 @@ img.resize {
     position: relative
 }
 .main-search.home {
-    background: rgba(0, 0, 0, 0) url("../images/banner-10.html") no-repeat scroll center center / cover;
+    /*background: rgba(0, 0, 0, 0) url("../images/banner-10.html") no-repeat scroll center center / cover;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1324,7 +1324,7 @@ img.resize {
     padding: 24px 25px
 }
 #banner {
-    background: url("../images/banner-5.html");
+    /*background: url("../images/banner-5.html");*/
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4298,7 +4298,7 @@ label {
     z-index: -1;
 }
 .transparent-breadcrumb-listing{
-    background: url(../../../../../listing.downtown-directory.com/wp-content/themes/dwt-listing/assets/images/collage.jpg) ;  background-repeat: no-repeat ; background-size: cover ;  background-position: center center ;  background-attachment: scroll; 
+    /*background: url(../../../../../listing.downtown-directory.com/wp-content/themes/dwt-listing/assets/images/collage.jpg) ;  background-repeat: no-repeat ; background-size: cover ;  background-position: center center ;  background-attachment: scroll; */
     color: #fff;
     padding-bottom: 35px;
     padding-top: 175px;
@@ -4875,14 +4875,14 @@ label {
     position: relative
 }
 .bg-img-3 {
-    background: rgba(0, 0, 0, 0) url("../images/banner-6.html") center center no-repeat;
+    /*background: rgba(0, 0, 0, 0) url("../images/banner-6.html") center center no-repeat;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover
 }
 .bg-img {
-    background: rgba(0, 0, 0, 0.6) url("../images/6.html") no-repeat;
+    /*background: rgba(0, 0, 0, 0.6) url("../images/6.html") no-repeat;*/
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -4892,7 +4892,7 @@ label {
 }
 
 .background-1 {
-    background-image: url(../images/mechanic.html);
+    /*background-image: url(../images/mechanic.html);*/
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4914,7 +4914,7 @@ label {
     width: 100%
 }
 .background-2 {
-    background-image: url(../images/service.html);
+    /*background-image: url(../images/service.html);*/
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5897,7 +5897,7 @@ fieldset[disabled] .btn-purple.active {
     text-transform: uppercase
 }
 .funfacts {
-    background: rgba(0, 0, 0, 0) url("../images/banner-6.html") no-repeat scroll center center;
+    /*background: rgba(0, 0, 0, 0) url("../images/banner-6.html") no-repeat scroll center center;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -6084,13 +6084,13 @@ span.app-store-btn {
     -webkit-transition: all .3s ease-out
 }
 .app-download-section {
-    background: rgba(0, 0, 0, 0) url("../images/app.html") no-repeat fixed center center / cover;
+    /*background: rgba(0, 0, 0, 0) url("../images/app.html") no-repeat fixed center center / cover;*/
     overflow: hidden;
     padding: 0;
     width: 100%
 }
 .app-download-section.style-2 {
-    background: rgba(0, 0, 0, 0) url("../images/slider/slider-banner4.html") no-repeat fixed center center / cover
+    /*background: rgba(0, 0, 0, 0) url("../images/slider/slider-banner4.html") no-repeat fixed center center / cover*/
 }
 .parallex .app-download-section-wrapper {
     background-color: transparent;
@@ -11662,7 +11662,7 @@ body.rtl  .ecommerce-shop .mega-menu .menu-links {
     margin-top: 0;
 }
 .services-3 {
-    background: rgba(0, 0, 0, 0) url("../images/slider/services-bg.html") center center no-repeat;
+    /*background: rgba(0, 0, 0, 0) url("../images/slider/services-bg.html") center center no-repeat;*/
     background-size: auto auto;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -11844,7 +11844,7 @@ body.rtl  .ecommerce-shop .mega-menu .menu-links {
 }
 /*CALL TO ACTION*/
 .sell-box.sell-box-2 {
-    background: rgba(0, 0, 0, 0) url("../images/slider/call-to-action.html") center center no-repeat;
+    /*background: rgba(0, 0, 0, 0) url("../images/slider/call-to-action.html") center center no-repeat;*/
     background-size: auto auto;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -12067,7 +12067,7 @@ body.rtl  .ecommerce-shop .mega-menu .menu-links {
     width: 100%;
 }
 .hero-section-2 {
-    background: rgba(0, 0, 0, 0) url("../images/slider/slider-image-2.html") center center no-repeat;
+    /*background: rgba(0, 0, 0, 0) url("../images/slider/slider-image-2.html") center center no-repeat;*/
     background-size: auto auto;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -12237,7 +12237,7 @@ body.rtl  .ecommerce-shop .mega-menu .menu-links {
 
 
 .our-best-services {
-    background-image: url("../images/slider/services-bg.html");
+    /*background-image: url("../images/slider/services-bg.html");*/
     height: 700px;
     position: relative;
     padding: 100px 0;
@@ -12514,7 +12514,7 @@ body.rtl  .ecommerce-shop .mega-menu .menu-links {
     line-height: 26px;
 }
 .pricing-section-images {
-    background: url("../images/s7.html");
+    /*background: url("../images/s7.html");*/
     height: 155px;
     padding: 20px 25px;
 }
@@ -12582,7 +12582,7 @@ body.rtl  .ecommerce-shop .mega-menu .menu-links {
 /*footer-get our apps section start*/
 
 .carspot-footer-section {
-    background: url("../images/foo.html");
+    /*background: url("../images/foo.html");*/
     height: auto;
     background-position: center;
     position: relative;

@@ -2827,7 +2827,7 @@ ul.activity-timeline > li:last-child:after {
 	overflow:hidden;
 }
 .review-content-box .review-content-meta {
-	position relative;	
+	position:relative;	
 }
 .review-box .review-author-name {
 	width:100%;
