@@ -26,6 +26,11 @@ const routes = [
     component: () => import("../views/ProductOverview.vue")
   },
   {
+    path: "/productDetails",
+    name: "productDetails",
+    component: () => import("../views/ProductDetails.vue")
+  },
+  {
     path: "/categories",
     name: "categories",
     component: () => import("../views/Categories.vue")
@@ -46,6 +51,36 @@ const routes = [
     component: () => import("../views/Dashboard.vue")
   },
   {
+    path: "/dashboardCarspot",
+    name: "dashboard",
+    component: () => import("../views/dashboard-carspot.vue")
+  },
+  {
+    path: "/editProfile",
+    name: "Edit Profile",
+    component: () => import("../views/edit-profile-carspot.vue")
+  },
+  {
+    path: "/messaging",
+    name: "messaging",
+    component: () => import("../views/messaging.vue")
+  },
+  {
+    path: "/publishedInventory",
+    name: "publishedinventory",
+    component: () => import("../views/published-inventory.vue")
+  },  
+  {
+    path: "/ordersInventory",
+    name: "ordersInventory",
+    component: () => import("../views/ordersInventory.vue")
+  },  
+  {
+    path: "/refferal",
+    name: "refferal",
+    component: () => import("../views/refferal.vue")
+  },
+  {
     path: "/favorite",
     name: "favorite",
     component: () => import("../views/Favorite.vue")
@@ -64,6 +99,11 @@ const routes = [
     path: "/settings",
     name: "settings",
     component: () => import("../views/Settings.vue")
+  },
+  {
+    path: "/mainsettings",
+    name: "settings",
+    component: () => import("../views/settings-carspot.vue")
   },
   {
     path: "/gridlist",
