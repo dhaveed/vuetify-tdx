@@ -4,11 +4,18 @@
     <div id="global-loader">
       <img src="./assets/images/loader.svg" class="loader-img" alt="" />
     </div>
-    <topbar></topbar>
+    <div v-if="$route.meta.header === 1"><topbar></topbar></div>
+    <div v-else-if="$route.meta.header === 3"><topbar2></topbar2></div>
+    <div v-else-if="$route.meta.header === 4"><topbar2></topbar2></div>
+    <!-- <topbar></topbar> -->
     <router-view />
-    <Footer></Footer>
+    <div v-if="$route.meta.header === 1"><Footer></Footer></div>
+    <div v-if="$route.meta.header === 3"><Footer></Footer></div>
+    <div v-if="$route.meta.header === 4"><Footer></Footer></div>
+    <!-- <div v-else-if="$route.meta.header === 3">I'm visible on home page two</div> -->
+    <!-- <Footer></Footer> -->
     <!-- Back to top -->
-		<a href="#top" id="back-to-top" ><i class="fa fa-rocket"></i></a>
+    <a href="#top" id="back-to-top"><i class="fa fa-rocket"></i></a>
   </div>
 </template>
 
@@ -16,10 +23,12 @@
 <script>
 /* eslint-disable no-undef*/
 import topbar from "@/components/Topbar";
+import topbar2 from "@/components/Topbar2";
 import Footer from "@/components/Footer";
 export default {
   components: {
     topbar,
+    topbar2,
     Footer
   },
   methods: {

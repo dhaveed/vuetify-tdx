@@ -5,12 +5,12 @@
 </template>
 
 <script>
-	import register from '@/components/auth/register'
+import register from "@/components/auth/register";
 
-	export default {
-	  name: "userregister",
-	  components: {
-	    register
-	  }
-	};
+export default {
+  name: "userregister",
+  components: {
+    register
+  }
+};
 </script>

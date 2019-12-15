@@ -1,8 +1,8 @@
-$(function(){
-   'use strict'
-	// Datepicker
-	$('.fc-datepicker').datepicker({
-		showOtherMonths: true,
-		selectOtherMonths: true
-	});  
- });
+$(function() {
+  "use strict";
+  // Datepicker
+  $(".fc-datepicker").datepicker({
+    showOtherMonths: true,
+    selectOtherMonths: true
+  });
+});

@@ -330,7 +330,7 @@ footer {
 	background-color: #f5f5fa;
 }
 #wrapper #sidebar-nav, #wrapper .main {
-	padding-top: 20px;
+	/*padding-top: 20px;*/
 }
 
 @media screen and (max-width: 767px) {

@@ -20,11 +20,10 @@
  * a global `Modernizr` object, and as classes on the `<html>` element. This
  * information allows you to progressively enhance your pages with a granular level
  * of control over the experience.
-*/
+ */
 
-;(function(window, document, undefined){
+(function(window, document, undefined) {
   var tests = [];
-  
 
   /**
    *
@@ -36,15 +35,15 @@
 
   var ModernizrProto = {
     // The current version, dummy
-    _version: '3.3.1',
+    _version: "3.3.1",
 
     // Any settings that don't work as separate modules
     // can go in here as configuration.
     _config: {
-      'classPrefix': '',
-      'enableClasses': true,
-      'enableJSClass': true,
-      'usePrefixes': true
+      classPrefix: "",
+      enableClasses: true,
+      enableJSClass: true,
+      usePrefixes: true
     },
 
     // Queue of tests
@@ -65,15 +64,13 @@
     },
 
     addTest: function(name, fn, options) {
-      tests.push({name: name, fn: fn, options: options});
+      tests.push({ name: name, fn: fn, options: options });
     },
 
     addAsyncTest: function(fn) {
-      tests.push({name: null, fn: fn});
+      tests.push({ name: null, fn: fn });
     }
   };
-
-  
 
   // Fake some of Object.create so we can force non test results to be non "own" properties.
   var Modernizr = function() {};
@@ -83,10 +80,7 @@
   // Overwrite name so constructor name is nicer :D
   Modernizr = new Modernizr();
 
-  
-
   var classes = [];
-  
 
   /**
    * is returns a boolean if the typeof an obj is exactly type.
@@ -101,8 +95,6 @@
   function is(obj, type) {
     return typeof obj === type;
   }
-  ;
-
   /**
    * Run through all tests and detect their support in the current UA.
    *
@@ -132,17 +124,26 @@
         if (feature.name) {
           featureNames.push(feature.name.toLowerCase());
 
-          if (feature.options && feature.options.aliases && feature.options.aliases.length) {
+          if (
+            feature.options &&
+            feature.options.aliases &&
+            feature.options.aliases.length
+          ) {
             // Add all the aliases into the names list
-            for (aliasIdx = 0; aliasIdx < feature.options.aliases.length; aliasIdx++) {
-              featureNames.push(feature.options.aliases[aliasIdx].toLowerCase());
+            for (
+              aliasIdx = 0;
+              aliasIdx < feature.options.aliases.length;
+              aliasIdx++
+            ) {
+              featureNames.push(
+                feature.options.aliases[aliasIdx].toLowerCase()
+              );
             }
           }
         }
 
         // Run the test, or use the raw value if it's not a function
-        result = is(feature.fn, 'function') ? feature.fn() : feature.fn;
-
+        result = is(feature.fn, "function") ? feature.fn() : feature.fn;
 
         // Set each of the names on the Modernizr object
         for (nameIdx = 0; nameIdx < featureNames.length; nameIdx++) {
@@ -153,26 +154,29 @@
           //
           // Cap it to TWO to make the logic simple and because who needs that kind of subtesting
           // hashtag famous last words
-          featureNameSplit = featureName.split('.');
+          featureNameSplit = featureName.split(".");
 
           if (featureNameSplit.length === 1) {
             Modernizr[featureNameSplit[0]] = result;
           } else {
             // cast to a Boolean, if not one already
-            if (Modernizr[featureNameSplit[0]] && !(Modernizr[featureNameSplit[0]] instanceof Boolean)) {
-              Modernizr[featureNameSplit[0]] = new Boolean(Modernizr[featureNameSplit[0]]);
+            if (
+              Modernizr[featureNameSplit[0]] &&
+              !(Modernizr[featureNameSplit[0]] instanceof Boolean)
+            ) {
+              Modernizr[featureNameSplit[0]] = new Boolean(
+                Modernizr[featureNameSplit[0]]
+              );
             }
 
             Modernizr[featureNameSplit[0]][featureNameSplit[1]] = result;
           }
 
-          classes.push((result ? '' : 'no-') + featureNameSplit.join('-'));
+          classes.push((result ? "" : "no-") + featureNameSplit.join("-"));
         }
       }
     }
   }
-  ;
-
   /**
    * docElement is a convenience wrapper to grab the root element of the document
    *
@@ -181,7 +185,6 @@
    */
 
   var docElement = document.documentElement;
-  
 
   /**
    * A convenience helper to check if the document we are running in is an SVG document
@@ -190,8 +193,7 @@
    * @returns {boolean}
    */
 
-  var isSVG = docElement.nodeName.toLowerCase() === 'svg';
-  
+  var isSVG = docElement.nodeName.toLowerCase() === "svg";
 
   /**
    * setClasses takes an array of class names and adds them to the root element
@@ -205,7 +207,7 @@
   //  ['no-webp', 'borderradius', ...]
   function setClasses(classes) {
     var className = docElement.className;
-    var classPrefix = Modernizr._config.classPrefix || '';
+    var classPrefix = Modernizr._config.classPrefix || "";
 
     if (isSVG) {
       className = className.baseVal;
@@ -214,23 +216,20 @@
     // Change `no-js` to `js` (independently of the `enableClasses` option)
     // Handle classPrefix on this too
     if (Modernizr._config.enableJSClass) {
-      var reJS = new RegExp('(^|\\s)' + classPrefix + 'no-js(\\s|$)');
-      className = className.replace(reJS, '$1' + classPrefix + 'js$2');
+      var reJS = new RegExp("(^|\\s)" + classPrefix + "no-js(\\s|$)");
+      className = className.replace(reJS, "$1" + classPrefix + "js$2");
     }
 
     if (Modernizr._config.enableClasses) {
       // Add the new classes
-      className += ' ' + classPrefix + classes.join(' ' + classPrefix);
+      className += " " + classPrefix + classes.join(" " + classPrefix);
       if (isSVG) {
         docElement.className.baseVal = className;
       } else {
         docElement.className = className;
       }
     }
-
   }
-
-  ;
 
   // Run each test
   testRunner();
@@ -248,8 +247,4 @@
 
   // Leak Modernizr namespace
   window.Modernizr = Modernizr;
-
-
-;
-
 })(window, document);
