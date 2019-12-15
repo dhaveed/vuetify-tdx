@@ -254,13 +254,15 @@
 
       // prevent scroll propagation
       if (settings.stopScrollPropagation) {
-        $(
-          document
-        ).on("wheel.ui-timepicker", ".ui-timepicker-wrapper", function(e) {
-          e.preventDefault();
-          var currentScroll = $(this).scrollTop();
-          $(this).scrollTop(currentScroll + e.originalEvent.deltaY);
-        });
+        $(document).on(
+          "wheel.ui-timepicker",
+          ".ui-timepicker-wrapper",
+          function(e) {
+            e.preventDefault();
+            var currentScroll = $(this).scrollTop();
+            $(this).scrollTop(currentScroll + e.originalEvent.deltaY);
+          }
+        );
       }
 
       // attach close handlers
@@ -739,7 +741,7 @@
       value = optionValue.value;
     } else if (typeof optionValue == "string") {
       label = optionValue;
-      value = '';
+      value = "";
     } else {
       $.error("Invalid noneOption value");
     }
@@ -954,8 +956,8 @@
   }
 
   /*
-	*  Filter freeform input
-	*/
+   *  Filter freeform input
+   */
   function _disableTextInputHandler(e) {
     switch (e.keyCode) {
       case 13: // return
@@ -968,8 +970,8 @@
   }
 
   /*
-	*  Keyboard navigation via arrow keys
-	*/
+   *  Keyboard navigation via arrow keys
+   */
   function _keydownhandler(e) {
     var self = $(this);
     var list = self.data("timepicker-list");
@@ -1060,8 +1062,8 @@
   }
 
   /*
-	*	Time typeahead
-	*/
+   *	Time typeahead
+   */
   function _keyuphandler(e) {
     var self = $(this);
     var list = self.data("timepicker-list");

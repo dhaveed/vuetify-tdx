@@ -110,6 +110,18 @@
 	min-width: 170px !important;
 }
 
+.sidebar-scroll .nav li {
+	width: 100%;
+}
+
+.custom-alert_top-side {
+	justify-content: space-around;
+}
+
+.custom-alert_icon {
+	padding: 0 !important;
+}
+
 /*------- Bootstrap Framework -------*/
 *, ::after, ::before {
 	box-sizing: border-box;

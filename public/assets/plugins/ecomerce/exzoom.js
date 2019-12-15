@@ -1,6 +1,6 @@
-$(function(){
-	 $("#exzoom").exzoom({
-		   autoPlay: false,
-	   });
-	 $("#exzoom").removeClass('hidden')
+$(function() {
+  $("#exzoom").exzoom({
+    autoPlay: false
+  });
+  $("#exzoom").removeClass("hidden");
 });
