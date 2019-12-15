@@ -5,7 +5,8 @@
     <div class="section-title center-block text-center">
       <h2 style="display: inline-block; margin-left: 92px">Popular Categories</h2>
       <div class="viewall">
-        <a href="../tempview/gridlist.html" >Show All</a>
+        <!-- <a href="../../views/Gridlist.vue" >Show All</a> -->
+        <router-link to="/Gridlist">Show All</router-link>
       </div>
       <!-- <p>Explore with some of the top categories on our platform</p> -->
     </div>

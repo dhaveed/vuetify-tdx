@@ -5,7 +5,7 @@
     <div class="section-title center-block text-center" >
       <h2 style="display: inline-block; margin-left: 92px">Latest Ads</h2>
       <div class="viewall">
-        <a href="../tempview/gridlist.html" >Show All</a>
+        <router-link to="/Gridlist">Show All</router-link>
       </div>
     </div>
     <div id="myCarousel1" class="owl-carousel owl-carousel-icons2">

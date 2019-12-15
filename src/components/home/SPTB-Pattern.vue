@@ -5,7 +5,7 @@
     <div class="section-title center-block text-center">
       <h2 style="display: inline-block; margin-left: 92px">Featured Ads</h2>
       <div class="viewall">
-        <a href="../tempview/listlist.html" >Show All</a>
+        <router-link to="/Gridlist">Show All</router-link>
       </div>
     </div>
     <div id="myCarousel2" class="owl-carousel owl-carousel-icons2">
@@ -13,7 +13,8 @@
         <div class="card mb-0">
           <div class="arrow-ribbon bg-primary bg-tag-tx">Premium</div>
           <div class="item-card7-imgs">
-            <a href="../tempview/productdetail.html"></a>
+            
+            <router-link to="/ProductOverview"></router-link>
             <img src="../../assets/images/products/pictures/b3.jpg" alt="img" class="cover-image">
           </div>
           <div class="item-card7-overlaytext">
