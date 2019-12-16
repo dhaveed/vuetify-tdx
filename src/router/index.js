@@ -30,6 +30,14 @@ const routes = [
     }
   },
   {
+    path: "/signin",
+    name: "signin",
+    component: () => import("../views/Signin.vue"),
+    meta: {
+      header: 3
+    }
+  },
+  {
     path: "/overview",
     name: "productoverview",
     component: () => import("../views/ProductOverview.vue"),
