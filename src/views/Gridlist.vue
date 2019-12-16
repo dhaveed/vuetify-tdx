@@ -2218,8 +2218,7 @@
                           <span class="price-tag-tx">&#8358; 77,900</span>
                         </div>
                       </div>
-                    </div>
-                    <div class="short-description-1 clearfix">
+                      <div class="short-description-1 clearfix">
                       <div class="category-title">
                         <span class="padding_cats">
                           <a href="../ad_category/rolls-royce/index.html"
@@ -2267,6 +2266,8 @@
                         >
                       </div>
                     </div>
+                    </div>
+                    
                   </div>
                   <!-- Listing Ad Grid -->
                 </div>
