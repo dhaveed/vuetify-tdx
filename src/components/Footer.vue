@@ -6,14 +6,14 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-3 col-md-12">
-              <a href="../../../index.html">
+              <router-link to="/Home">
                 <img
                   src="../assets/images/footer-logo.png"
                   class="img-responsive"
                   alt="Site logo"
                   style="margin-bottom: 1rem"
                 />
-              </a>
+              </router-link>
               <hr
                 class="deep-purple  accent-2 mb-4 mt-0 d-inline-block mx-auto"
               />

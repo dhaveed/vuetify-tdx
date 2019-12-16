@@ -5,7 +5,7 @@
       <div class="section-title center-block text-center">
         <h2 style="display: inline-block; margin-left: 92px">Featured Ads</h2>
         <div class="viewall">
-          <a href="../tempview/listlist.html">Show All</a>
+          <router-link to="/Gridlist">Show All</router-link>
         </div>
       </div>
       <div id="myCarousel2" class="owl-carousel owl-carousel-icons2">
@@ -13,7 +13,7 @@
           <div class="card mb-0">
             <div class="arrow-ribbon bg-primary bg-tag-tx">Premium</div>
             <div class="item-card7-imgs">
-              <a href="../tempview/productdetail.html"></a>
+              <router-link to="/ProductDetails"></router-link>
               <img
                 src="../../assets/images/products/pictures/b3.jpg"
                 alt="img"
@@ -28,9 +28,11 @@
             <div class="card-body">
               <div class="item-card7-desc">
                 <div class="item-card7-text">
-                  <a href="col-left.html" class="text-dark"
-                    ><h4 class="product-title-tx">Macbook Pro 2018</h4></a
-                  >
+                  <router-link to="/ProductDetails" class="text-dark">
+                  <h4 class="product-title-tx">
+                      Macbook Pro 2018
+                    </h4></router-link>
+                  
                   <p class="">
                     <i class="icon icon-location-pin text-muted mr-1"></i> 1st
                     Avenue, Gwarimpa, Abuja , Nigeria
@@ -62,7 +64,7 @@
           <div class="card mb-0">
             <div class="arrow-ribbon bg-tag-gold-tx">Gold</div>
             <div class="item-card7-imgs">
-              <a href="../tempview/productdetail.html"></a>
+              <router-link to="/ProductDetails"></router-link>
               <img
                 src="../../assets/images/products/pictures/h3.jpg"
                 alt="img"
@@ -76,9 +78,11 @@
             <div class="card-body">
               <div class="item-card7-desc">
                 <div class="item-card7-text">
-                  <a href="col-left.html" class="text-dark"
-                    ><h4 class="product-title-tx">Dell Laptop 2015</h4></a
-                  >
+                  <router-link to="/ProductDetails" class="text-dark">
+                  <h4 class="product-title-tx">
+                     Dell Laptop 2015
+                    </h4></router-link>
+                 
                   <p class="">
                     <i class="icon icon-location-pin text-muted mr-1"></i> 1st
                     Avenue, Gwarimpa, Abuja , Nigeria
@@ -110,7 +114,7 @@
           <div class="card mb-0">
             <div class="arrow-ribbon bg-primary bg-tag-tx">Premium</div>
             <div class="item-card7-imgs">
-              <a href="../tempview/productdetail.html"></a>
+              <router-link to="/ProductDetails"></router-link>
               <img
                 src="../../assets/images/products/pictures/v4.jpg"
                 alt="img"
@@ -125,9 +129,11 @@
             <div class="card-body">
               <div class="item-card7-desc">
                 <div class="item-card7-text">
-                  <a href="col-left.html" class="text-dark"
-                    ><h4 class="product-title-tx">House For Sale</h4></a
-                  >
+                  <router-link to="/ProductDetails" class="text-dark">
+                  <h4 class="product-title-tx">
+                     House For Sale
+                    </h4></router-link>
+                  
                   <p class="">
                     <i class="icon icon-location-pin text-muted mr-1"></i> 1st
                     Avenue, Gwarimpa, Abuja , Nigeria
@@ -159,7 +165,7 @@
           <div class="card mb-0">
             <div class="arrow-ribbon bg-tag-gold-tx">Gold</div>
             <div class="item-card7-imgs">
-              <a href="../tempview/productdetail.html"></a>
+              <router-link to="/ProductDetails"></router-link>
               <img
                 src="../../assets/images/products/pictures/v4.jpg"
                 alt="img"
@@ -172,9 +178,11 @@
             <div class="card-body">
               <div class="item-card7-desc">
                 <div class="item-card7-text">
-                  <a href="col-left.html" class="text-dark"
-                    ><h4 class="product-title-tx">English Teacher</h4></a
-                  >
+                  <router-link to="/ProductDetails" class="text-dark">
+                  <h4 class="product-title-tx">
+                     English Teacher
+                    </h4></router-link>
+                 
                   <p class="">
                     <i class="icon icon-location-pin text-muted mr-1"></i> 1st
                     Avenue, Gwarimpa, Abuja , Nigeria

@@ -7,7 +7,8 @@
           Popular Categories
         </h2>
         <div class="viewall">
-          <a href="../tempview/gridlist.html">Show All</a>
+          
+          <router-link to="/Gridlist">Show All</router-link>
         </div>
         <!-- <p>Explore with some of the top categories on our platform</p> -->
       </div>
@@ -16,7 +17,8 @@
           <div class="card card-cat-tx mb-0 box-shadow-0">
             <div class="item-card item-card-tx">
               <div class="item-card-desc item-card-desc-tx">
-                <a href="../tempview/gridlist.html"></a>
+                
+                <router-link to="/Gridlist"></router-link>
                 <div class="item-card-img item-card-img-tx">
                   <img
                     src="../../assets/images/categories/car.svg"
@@ -39,7 +41,7 @@
           <div class="card card-cat-tx mb-0 box-shadow-0">
             <div class="item-card item-card-tx">
               <div class="item-card-desc item-card-desc-tx">
-                <a href="../tempview/gridlist.html"></a>
+                <router-link to="/Gridlist"></router-link>
                 <div class="item-card-img item-card-img-tx">
                   <img
                     src="../../assets/images/categories/smartphone.svg"
@@ -62,7 +64,7 @@
           <div class="card card-cat-tx mb-0 box-shadow-0">
             <div class="item-card item-card-tx">
               <div class="item-card-desc item-card-desc-tx">
-                <a href="../tempview/gridlist.html"></a>
+                <router-link to="/Gridlist"></router-link>
                 <div class="item-card-img item-card-img-tx">
                   <img
                     src="../../assets/images/categories/mansion.svg"
@@ -85,7 +87,7 @@
           <div class="card card-cat-tx mb-0 box-shadow-0">
             <div class="item-card item-card-tx">
               <div class="item-card-desc item-card-desc-tx">
-                <a href="../tempview/gridlist.html"></a>
+                <router-link to="/Gridlist"></router-link>
                 <div class="item-card-img item-card-img-tx">
                   <img
                     src="../../assets/images/categories/electronics.svg"
@@ -108,7 +110,7 @@
           <div class="card card-cat-tx mb-0 box-shadow-0">
             <div class="item-card item-card-tx">
               <div class="item-card-desc item-card-desc-tx">
-                <a href="../tempview/gridlist.html"></a>
+                <router-link to="/Gridlist"></router-link>
                 <div class="item-card-img item-card-img-tx">
                   <img
                     src="../../assets/images/categories/fashion.svg"
@@ -131,7 +133,7 @@
           <div class="card card-cat-tx mb-0 box-shadow-0">
             <div class="item-card item-card-tx">
               <div class="item-card-desc item-card-desc-tx">
-                <a href="../tempview/gridlist.html"></a>
+                <router-link to="/Gridlist"></router-link>
                 <div class="item-card-img item-card-img-tx">
                   <img
                     src="../../assets/images/categories/suitcase.svg"
@@ -154,7 +156,7 @@
           <div class="card card-cat-tx mb-0 box-shadow-0">
             <div class="item-card item-card-tx">
               <div class="item-card-desc item-card-desc-tx">
-                <a href="../tempview/gridlist.html"></a>
+                <router-link to="/Gridlist"></router-link>
                 <div class="item-card-img item-card-img-tx">
                   <img
                     src="../../assets/images/categories/bear.svg"
@@ -177,7 +179,7 @@
           <div class="card card-cat-tx mb-0 box-shadow-0">
             <div class="item-card item-card-tx">
               <div class="item-card-desc item-card-desc-tx">
-                <a href="../tempview/gridlist.html"></a>
+                <router-link to="/Gridlist"></router-link>
                 <div class="item-card-img item-card-img-tx">
                   <img
                     src="../../assets/images/categories/agriculture.svg"
@@ -200,7 +202,7 @@
           <div class="card card-cat-tx mb-0 box-shadow-0">
             <div class="item-card item-card-tx">
               <div class="item-card-desc item-card-desc-tx">
-                <a href="../tempview/gridlist.html"></a>
+                <router-link to="/Gridlist"></router-link>
                 <div class="item-card-img item-card-img-tx">
                   <img
                     src="../../assets/images/categories/animal.svg"
@@ -223,7 +225,7 @@
           <div class="card card-cat-tx mb-0 box-shadow-0">
             <div class="item-card item-card-tx">
               <div class="item-card-desc item-card-desc-tx">
-                <a href="../tempview/gridlist.html"></a>
+                <router-link to="/Gridlist"></router-link>
                 <div class="item-card-img item-card-img-tx">
                   <img
                     src="../../assets/images/categories/handyman.svg"

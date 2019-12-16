@@ -5,14 +5,14 @@
       <div class="section-title center-block text-center">
         <h2 style="display: inline-block; margin-left: 92px">Latest Ads</h2>
         <div class="viewall">
-          <a href="../tempview/gridlist.html">Show All</a>
+          <router-link to="/Gridlist">Show All</router-link>
         </div>
       </div>
       <div id="myCarousel1" class="owl-carousel owl-carousel-icons2">
         <div class="item">
           <div class="card mb-0">
             <div class="item-card2-img">
-              <a href="../tempview/productdetail.html"></a>
+              <router-link to="/ProductDetails"></router-link>
               <img
                 src="../../assets/images/products/pictures/f1.jpg"
                 alt="img"
@@ -27,11 +27,12 @@
             <div class="card-body">
               <div class="item-card2">
                 <div class="item-card2-text">
-                  <a href="../tempview/productdetail.html" class="text-dark"
-                    ><h4 class="product-title-tx">
+                  <router-link to="/ProductDetails" class="text-dark">
+                  <h4 class="product-title-tx">
                       2010 Mercedes Benz E350
-                    </h4></a
-                  >
+                    </h4></router-link>
+                 
+                  
                   <p class="mb-2">
                     <i class="fa fa-map-marker text-muted mr-1"></i> 1st Avenue,
                     Gwarimpa, Abuja , Nigeria
@@ -72,7 +73,7 @@
           <div class="card mb-0">
             <!-- <div class="power-ribbon power-ribbon-top-left text-warning"><span class="bg-warning"><i class="fa fa-bolt"></i></span></div> -->
             <div class="item-card2-img">
-              <a href="../tempview/productdetail.html"></a>
+              <router-link to="/ProductDetails"></router-link>
               <img
                 src="../../assets/images/products/pictures/h4.jpg"
                 alt="img"
@@ -89,21 +90,17 @@
             <div class="card-body">
               <div class="item-card2">
                 <div class="item-card2-text">
-                  <a href="col-left.html" class="text-dark"
-                    ><h4 class="product-title-tx">Electric Blender</h4></a
-                  >
+                  <router-link to="/ProductDetails" class="text-dark">
+                  <h4 class="product-title-tx">
+                      Electric Blender
+                    </h4></router-link>
                   <p class="mb-2">
                     <i class="fa fa-map-marker text-muted mr-1"></i> 1st Avenue,
                     Gwarimpa, Abuja , Nigeria
                   </p>
                   <h5 class="font-weight-bold mb-2 price-tx">&#8358;12,890</h5>
                 </div>
-                <!-- <ul class="item-card2-list">
-                <li><a href="#"><i class="fa fa-arrows-alt text-muted mr-1"></i> 150 Sqft</a></li>
-                <li><a href="#" class="icons"><i class="fa fa-bed text-muted mr-1"></i> 2 Beds</a></li>
-                <li><a href="#" class="icons"><i class="fa fa-bath text-muted mr-1"></i> 3 Bath</a></li>
-                <li><a href="#" class="icons"><i class="fa fa-car text-muted mr-1"></i> 1 Car</a></li>
-              </ul> -->
+               
               </div>
             </div>
             <div class="card-footer">
@@ -135,7 +132,7 @@
         <div class="item">
           <div class="card mb-0">
             <div class="item-card2-img">
-              <a href="../tempview/productdetail.html"></a>
+              <router-link to="/ProductDetails"></router-link>
               <img
                 src="../../assets/images/products/pictures/b1.jpg"
                 alt="img"
@@ -155,9 +152,11 @@
             <div class="card-body">
               <div class="item-card2">
                 <div class="item-card2-text">
-                  <a href="col-left.html" class="text-dark"
-                    ><h4 class="product-title-tx">Tecno Spark 2 16GB</h4></a
-                  >
+                  <router-link to="/ProductDetails" class="text-dark">
+                  <h4 class="product-title-tx">
+                      Tecno Spark 2 16GB
+                    </h4></router-link>
+                 
                   <p class="mb-2">
                     <i class="fa fa-map-marker text-muted mr-1"></i> 1st Avenue,
                     Gwarimpa, Abuja , Nigeria
@@ -202,7 +201,7 @@
           <div class="card mb-0">
             <!-- <div class="power-ribbon power-ribbon-top-left text-warning"><span class="bg-warning"><i class="fa fa-bolt"></i></span></div> -->
             <div class="item-card2-img">
-              <a href="../tempview/productdetail.html"></a>
+              <router-link to="/ProductDetails"></router-link>
               <img
                 src="../../assets/images/products/pictures/v1.jpg"
                 alt="img"
@@ -219,9 +218,11 @@
             <div class="card-body">
               <div class="item-card2">
                 <div class="item-card2-text">
-                  <a href="col-left.html" class="text-dark"
-                    ><h4 class="product-title-tx">Iphone 11</h4></a
-                  >
+                  <router-link to="/ProductDetails" class="text-dark">
+                  <h4 class="product-title-tx">
+                      Iphone 11
+                    </h4></router-link>
+                  
                   <p class="mb-2">
                     <i class="fa fa-map-marker text-muted mr-1"></i> 1st Avenue,
                     Gwarimpa, Abuja , Nigeria

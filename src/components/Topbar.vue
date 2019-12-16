@@ -269,28 +269,32 @@
                   ></a>
                   <ul class="dropdown-menu">
                     <li class="wallet-balance">
-                      Balance
-                      <span
-                        ><img
+                      <img
                           src="../assets/images/wallet.svg"
-                          height="20px"
-                          style="margin-top: -4px;"
+                          height="18px"
+                          style="margin-top: -4px; margin-right: 5px;"
                           alt=""
                           srcset=""
-                        />00.00</span
-                      >
+                        />
+                      
+                      Balance
+                      
+                      <span> 00.00</span>
                     </li>
-                    <li>
-                      <a
-                        href="https://carspot.scriptsbundle.com/transparent-1/ad/2017-maserati-ghibli-sq4-blue-1695-miles/"
-                        >Dashboard</a
-                      >
+                    <li class="profile-dropdown-list">
+
+                      <router-link to="/Dashboard" class="profile-dropdown-link">
+                        <i class="fa fa-dashboard profile-dropdown-icon"></i>
+                        Dashboard
+                      </router-link>
+                      
+                        
                     </li>
-                    <li>
-                      <a
-                        href="https://carspot.scriptsbundle.com/transparent-1/wp-login.php?action=logout&amp;redirect_to=https%3A%2F%2Fcarspot.scriptsbundle.com%2Ftransparent-1%2Fsign-in-to-your-account%2F&amp;_wpnonce=08f43e8da3"
-                        >Logout</a
-                      >
+                    <li class="profile-dropdown-list">
+                      <router-link to="/Login" class="profile-dropdown-link">
+                        <i class="fa fa-sign-out profile-dropdown-icon"></i>
+                        Logout
+                      </router-link>
                     </li>
                   </ul>
                 </li>
