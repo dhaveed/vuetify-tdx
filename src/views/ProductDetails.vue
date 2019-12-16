@@ -1213,22 +1213,7 @@
                     </ol>
                   </div>
                 </div>
-                <div class="widget" style="margin-top: 5px;">
-                        <div class="widget-heading">
-                           <h4 class="panel-title" style="text-align: center; font-weight: 600;"><span>Refer Your Friend</span></h4>
-                        </div>
-                        <div class="widget-content saftey">
-                         <p>Get a discount on the next ad you post when your friend uses this link.</p>
-                         <ol style="list-style-type: none; padding-left: 0px;">
-                           <router-link to="" class="refer-link"><li class="refferal-social-media"> <div class="social-share facebook"> <i class="fa fa-facebook"></i></div> Share this link</li></router-link>
-                           <router-link to="" class="refer-link"><li class="refferal-social-media"> <div class="social-share twitter"> <i class="fa fa-twitter"></i></div> Share this link</li></router-link>
-                           <router-link to="" class="refer-link"><li class="refferal-social-media"> <div class="social-share email"> <i class="fa fa-envelope"></i></div> Share this link</li></router-link>
-                            
-                            
-                            <!-- <li class="refferal-social-media"> <div class="social-share"> <i class="fa fa-facebook"></i></div> Share this link</li> -->
-                         </ol>                   
-                        </div>
-                     </div>
+                
                 <div class="widget">
                   <div class="widget-heading">
                     <h4
