@@ -184,7 +184,7 @@
               <div class="post-package">
                 <div class="row package-information">
                   <div class="col-md-12 ad-section-title">
-                    <!-- <img src="../assets/images/ad-post.svg" style="width: 32px;" />  -->
+                    <img src="../../assets/images/ad-post.svg" style="width: 32px;" /> 
                     Ad Post Package
                   </div>
                 </div>
@@ -291,7 +291,7 @@
                         class="senior-ads-header gold"
                         style="background-color:  #f0ad4e;"
                       >
-                        <!-- <img src="../assets/images/ad-premium.svg " width="24px"> -->
+                        <img src="../../assets/images/ad-premium.svg" width="24px">
                         <div class="post-package-title gold">
                           <span>Gold</span>
                         </div>
@@ -341,7 +341,7 @@
                         class="senior-ads-header premium"
                         style="background-color: #27c781;"
                       >
-                        <!-- <img src="../assets/images/ad-premium.svg " width="24px"> -->
+                        <img src="../../assets/images/ad-premium.svg" width="24px">
                         <div class="post-package-title">
                           <span>Premium</span>
                         </div>
@@ -392,7 +392,7 @@
                         class="senior-ads-header hot"
                         style="background-color: #4CAF50;"
                       >
-                        <!-- <img src="../assets/images/ad-premium.svg " width="24px"> -->
+                        <img src="../../assets/images/ad-premium.svg" width="24px">
                         <div class="post-package-title hot">
                           <span>Hot Sellers</span>
                         </div>
@@ -551,7 +551,7 @@
             </div>
             <div class="card-body">
               <div class="ads">
-                <!-- <img src="../assets/images/gloads.jpg" alt="" srcset=""> -->
+                <img src="../../assets/images/gloads.jpg" alt="" srcset="">
               </div>
             </div>
           </div>
