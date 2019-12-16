@@ -28,11 +28,11 @@
               <div class="item-card2">
                 <div class="item-card2-text">
                   <router-link to="/ProductDetails" class="text-dark">
-                  <h4 class="product-title-tx">
+                    <h4 class="product-title-tx">
                       2010 Mercedes Benz E350
-                    </h4></router-link>
-                 
-                  
+                    </h4></router-link
+                  >
+
                   <p class="mb-2">
                     <i class="fa fa-map-marker text-muted mr-1"></i> 1st Avenue,
                     Gwarimpa, Abuja , Nigeria
@@ -91,16 +91,16 @@
               <div class="item-card2">
                 <div class="item-card2-text">
                   <router-link to="/ProductDetails" class="text-dark">
-                  <h4 class="product-title-tx">
+                    <h4 class="product-title-tx">
                       Electric Blender
-                    </h4></router-link>
+                    </h4></router-link
+                  >
                   <p class="mb-2">
                     <i class="fa fa-map-marker text-muted mr-1"></i> 1st Avenue,
                     Gwarimpa, Abuja , Nigeria
                   </p>
                   <h5 class="font-weight-bold mb-2 price-tx">&#8358;12,890</h5>
                 </div>
-               
               </div>
             </div>
             <div class="card-footer">
@@ -153,10 +153,11 @@
               <div class="item-card2">
                 <div class="item-card2-text">
                   <router-link to="/ProductDetails" class="text-dark">
-                  <h4 class="product-title-tx">
+                    <h4 class="product-title-tx">
                       Tecno Spark 2 16GB
-                    </h4></router-link>
-                 
+                    </h4></router-link
+                  >
+
                   <p class="mb-2">
                     <i class="fa fa-map-marker text-muted mr-1"></i> 1st Avenue,
                     Gwarimpa, Abuja , Nigeria
@@ -219,10 +220,11 @@
               <div class="item-card2">
                 <div class="item-card2-text">
                   <router-link to="/ProductDetails" class="text-dark">
-                  <h4 class="product-title-tx">
+                    <h4 class="product-title-tx">
                       Iphone 11
-                    </h4></router-link>
-                  
+                    </h4></router-link
+                  >
+
                   <p class="mb-2">
                     <i class="fa fa-map-marker text-muted mr-1"></i> 1st Avenue,
                     Gwarimpa, Abuja , Nigeria

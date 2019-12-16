@@ -12,6 +12,19 @@
 </template>
 
 <script>
+require("../assets/plugins/bootstrap-4.3.1-dist/css/bootstrap.min.css");
+require("../assets/css/style.css");
+require("../assets/css/icons.css");
+require("../assets/plugins/horizontal-menu/horizontal.css");
+require("../assets/plugins/select2/select2.min.css");
+require("../assets/plugins/cookie/cookie.css");
+require("../assets/plugins/owl-carousel/owl.carousel.css");
+require("../assets/plugins/scroll-bar/jquery.mCustomScrollbar.css");
+require("../assets/skins/color-skins/color15.css");
+require("../assets/css/flaticon24d2c.css");
+require("../assets/plugins/slick-1.8.1/slick-1.8.1/slick/slick.css");
+require("../assets/plugins/slick-1.8.1/slick-1.8.1/slick/slick-theme.css");
+
 import start from "@/components/home/Start";
 import categories from "@/components/home/Categories";
 import sptb from "@/components/home/SPTB";
@@ -35,6 +48,9 @@ export default {
   methods: {
     sync() {
       console.log("Jquery mounted");
+    },
+    onWindowLoad() {
+      window.location.reload();
     }
   },
   watch: {
@@ -42,6 +58,22 @@ export default {
   },
   created() {
     this.sync();
+    this.$forceUpdate();
+  },
+  beforeCreate() {
+    console.log("this is before created");
+  },
+  beforeMount() {
+    console.log("this is before mounted");
+  },
+  mounted() {
+    if (localStorage.getItem("reloader") === 1) {
+      // localStorage.removeItem("reloader")
+      location.reload();
+    } else if (localStorage.getItem("reloader") === 0) {
+      // localStorage.setItem("reloader", "0")
+      // location.reload();
+    }
   }
 };
 </script>
