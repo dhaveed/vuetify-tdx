@@ -64,5 +64,8 @@ export default {
   created() {
     this.sync();
   }
+  // mounted(){
+  //   localStorage.setItem("reloader", "0");
+  // }
 };
 </script>

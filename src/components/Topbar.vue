@@ -270,25 +270,25 @@
                   <ul class="dropdown-menu">
                     <li class="wallet-balance">
                       <img
-                          src="../assets/images/wallet.svg"
-                          height="18px"
-                          style="margin-top: -4px; margin-right: 5px;"
-                          alt=""
-                          srcset=""
-                        />
-                      
+                        src="../assets/images/wallet.svg"
+                        height="18px"
+                        style="margin-top: -4px; margin-right: 5px;"
+                        alt=""
+                        srcset=""
+                      />
+
                       Balance
-                      
+
                       <span> 00.00</span>
                     </li>
                     <li class="profile-dropdown-list">
-
-                      <router-link to="/Dashboard" class="profile-dropdown-link">
+                      <router-link
+                        to="/Dashboard"
+                        class="profile-dropdown-link"
+                      >
                         <i class="fa fa-dashboard profile-dropdown-icon"></i>
                         Dashboard
                       </router-link>
-                      
-                        
                     </li>
                     <li class="profile-dropdown-list">
                       <router-link to="/Login" class="profile-dropdown-link">

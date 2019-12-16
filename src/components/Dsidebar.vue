@@ -22,20 +22,18 @@
               <router-link to="/maindashboard">
                 <i class="la la-home"></i> <span>Dashboard</span>
               </router-link>
-             
             </li>
             <li>
-               <router-link to="/editProfile">
+              <router-link to="/editProfile">
                 <i class="la la-pencil"></i> <span>Edit Profile</span>
               </router-link>
-             
             </li>
 
             <li>
               <router-link to="/messaging">
-                <i class="la la-envelope"></i> <span>My Messages</span><span class="badge referral">0</span>
+                <i class="la la-envelope"></i> <span>My Messages</span
+                ><span class="badge referral">0</span>
               </router-link>
-             
             </li>
             <li>
               <a href="#subPages" class="collapsed" data-toggle="collapse"
@@ -48,31 +46,26 @@
                     <router-link to="/publishedInventory">
                       <span>Published</span><span class="badge">0</span>
                     </router-link>
-                    
                   </li>
                   <li>
                     <router-link to="/ordersInventory">
                       <span>Expired</span><span class="badge">0</span>
                     </router-link>
-                    
                   </li>
                   <li>
                     <router-link to="/messaging">
                       <span>Sold</span><span class="badge">0</span>
                     </router-link>
-                    
                   </li>
                   <li>
                     <router-link to="/messaging">
                       <span>Pending</span><span class="badge">0</span>
                     </router-link>
-                    
                   </li>
                   <li>
                     <router-link to="/messaging">
                       <span>Saved</span><span class="badge">0</span>
                     </router-link>
-                    
                   </li>
                 </ul>
               </div>

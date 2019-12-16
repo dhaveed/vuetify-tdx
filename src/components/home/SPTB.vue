@@ -7,7 +7,6 @@
           Popular Categories
         </h2>
         <div class="viewall">
-          
           <router-link to="/Gridlist">Show All</router-link>
         </div>
         <!-- <p>Explore with some of the top categories on our platform</p> -->
@@ -17,7 +16,6 @@
           <div class="card card-cat-tx mb-0 box-shadow-0">
             <div class="item-card item-card-tx">
               <div class="item-card-desc item-card-desc-tx">
-                
                 <router-link to="/Gridlist"></router-link>
                 <div class="item-card-img item-card-img-tx">
                   <img

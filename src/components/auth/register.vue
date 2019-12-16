@@ -48,7 +48,7 @@
 
                   <div class="form-group form-group-tx row">
                     <label for="" class="col-md-4 control-label">
-                      First Name 
+                      First Name
                     </label>
                     <div class="col-md-6">
                       <div class="radio">
@@ -64,7 +64,7 @@
                   </div>
                   <div class="form-group form-group-tx row">
                     <label for="" class="col-md-4 control-label">
-                      Last Name 
+                      Last Name
                     </label>
                     <div class="col-md-6">
                       <div class="radio">
@@ -79,9 +79,7 @@
                     </div>
                   </div>
                   <div class="form-group form-group-tx row">
-                    <label class="col-md-4 control-label"
-                      >Phone Number </label
-                    >
+                    <label class="col-md-4 control-label">Phone Number </label>
                     <div class="col-md-6">
                       <input
                         name=""
@@ -150,7 +148,7 @@ About Yourself</textarea
                   </div>
                   <div class="form-group form-group-tx row">
                     <label for="" class="col-md-4 control-label">
-                      Email 
+                      Email
                     </label>
                     <div class="col-md-6">
                       <div class="radio">
