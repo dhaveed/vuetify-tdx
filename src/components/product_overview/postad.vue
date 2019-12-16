@@ -184,7 +184,7 @@
               <div class="post-package">
                 <div class="row package-information">
                   <div class="col-md-12 ad-section-title">
-                    <!-- <img src="../assets/images/ad-post.svg" style="width: 32px;" />  -->
+                    <img src="../../assets/images/ad-post.svg" style="width: 32px;" /> 
                     Ad Post Package
                   </div>
                 </div>
@@ -291,7 +291,7 @@
                         class="senior-ads-header gold"
                         style="background-color:  #f0ad4e;"
                       >
-                        <!-- <img src="../assets/images/ad-premium.svg " width="24px"> -->
+                        <!-- <img src="../../assets/images/ad-premium.svg " width="24px"> -->
                         <div class="post-package-title gold">
                           <span>Gold</span>
                         </div>
@@ -328,7 +328,7 @@
                       <div class="select-senior-ad">
                         <button
                           class="btn btn-block btn-primary"
-                          style="background-color: #F6C98A; border-color: #F6C98A; color: #D37E04;"
+                          style="background-color: #f7dbb4; border-color: #f7dbb4; color: #D37E04;"
                         >
                           Select
                         </button>
@@ -341,7 +341,7 @@
                         class="senior-ads-header premium"
                         style="background-color: #27c781;"
                       >
-                        <!-- <img src="../assets/images/ad-premium.svg " width="24px"> -->
+                        <!-- <img src="../../assets/images/ad-premium.svg " width="24px"> -->
                         <div class="post-package-title">
                           <span>Premium</span>
                         </div>
@@ -392,7 +392,7 @@
                         class="senior-ads-header hot"
                         style="background-color: #4CAF50;"
                       >
-                        <!-- <img src="../assets/images/ad-premium.svg " width="24px"> -->
+                        <!-- <img src="../../assets/images/ad-premium.svg " width="24px"> -->
                         <div class="post-package-title hot">
                           <span>Hot Sellers</span>
                         </div>
@@ -551,7 +551,7 @@
             </div>
             <div class="card-body">
               <div class="ads">
-                <!-- <img src="../assets/images/gloads.jpg" alt="" srcset=""> -->
+                <!-- <img src="../../assets/images/gloads.jpg" alt="" srcset=""> -->
               </div>
             </div>
           </div>
@@ -567,20 +567,12 @@
                   <div class=" tab-menu-heading border-0 pl-0 pr-0 pt-0">
                     <div class="tabs-menu1 ">
                       <!-- Tabs -->
-                      <ul class="nav panel-tabs">
-                        <li>
-                          <a href="#tab5" class="active" data-toggle="tab"
-                            >Wallet</a
-                          >
-                        </li>
-                        <li>
-                          <a href="#tab6" data-toggle="tab"
-                            >Credit/ Debit Card</a
-                          >
-                        </li>
-                        <li><a href="#tab7" data-toggle="tab">Cash</a></li>
-                        <!-- <li><a href="#tab8" data-toggle="tab">Gift Voucher</a></li> -->
-                      </ul>
+												<ul class="nav panel-tabs">
+													<li><a href="#tab5" class="active" data-toggle="tab"> <img src="../../assets/images/wallet.svg" height="20px" style="margin-top: -4px;" alt="" srcset=""> Wallet</a></li>
+													<li><a href="#tab6" data-toggle="tab"> <img src="../../assets/images/master_card.png" height="20px" style="margin-top: -4px;" alt="" srcset=""> Credit/ Debit Card</a></li>
+													<li><a href="#tab7" data-toggle="tab"> <i class="fa fa-university"></i> Cash</a></li>
+													<!-- <li><a href="#tab8" data-toggle="tab">Gift Voucher</a></li> -->
+												</ul>
                     </div>
                   </div>
                   <div class="panel-body tabs-menu-body pl-0 pr-0 border-0">
@@ -765,6 +757,7 @@
                     </div>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
