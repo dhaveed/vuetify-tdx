@@ -75,12 +75,7 @@
                 <div class="panel  panel-headline">
                   <div class="panel-heading">
                     <h3 class="panel-title">Most Viewed Posts</h3>
-                    <a
-                      href=""
-                      class=""
-                    >
-                      View All Posts</a
-                    >
+                    <a href="" class=""> View All Posts</a>
                   </div>
                   <div class="panel-body table-responsive">
                     <table
@@ -104,12 +99,7 @@
                 <div class="panel  panel-headline">
                   <div class="panel-heading">
                     <h3 class="panel-title">Most Recent Reviews</h3>
-                    <a
-                      href=""
-                      class=""
-                    >
-                      View All Reviews</a
-                    >
+                    <a href="" class=""> View All Reviews</a>
                   </div>
                   <div class="panel-body">
                     <div

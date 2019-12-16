@@ -35,7 +35,7 @@
       </div>
     </div>
   </div>
-/template>
+</template>
 
 <script>
 /* eslint-disable no-undef */

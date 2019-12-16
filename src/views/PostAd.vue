@@ -220,7 +220,9 @@
                               <span
                                 class=""
                                 style="float: right; font-size: 18px;"
-                                > <span style="font-size: 14px;">(Free) </span>  &#8358; 0.00</span
+                              >
+                                <span style="font-size: 14px;">(Free) </span>
+                                &#8358; 0.00</span
                               ></span
                             >
                           </label>
@@ -270,8 +272,6 @@
                       </ul>
                     </div>
                   </div>
-
-                 
                 </div>
                 <div class="link-to-senior-ads">
                   <span class="explanatory-text">Make you ad PREMIUM </span>
@@ -285,119 +285,158 @@
 
                 <!-- Should display on selection of above link -->
                 <div class="row" style="margin-top: 20px;">
-										<div class="col-md-4">
-											<div class="senior-ads form-group">
-												
-												<div class="senior-ads-header gold" style="background-color:  #27c781;">
-															<!-- <img src="../assets/images/ad-premium.svg " width="24px"> -->
-															<div class="post-package-title gold"><span >Gold</span></div>
-															<span>&#8358;</span><h4 style="text-align: center; font-size: 48px!important; font-weight: 500; color: #fff;">3000</h4>
-															<div class="package-value"><span> <i></i> </span></div>
-															
-														</div>
-													<div class="senior-ads-body">
-															
-															
-															<ul class="package-details-list">
-																<li>
-																	<i class="fa fa-check-circle-o"></i>
-																	30 days ad boost
-																</li>
-																<li>
-																	<i class="fa fa-check-circle-o"></i>
-																	30 days ad boost
-																</li>
-																<li>
-																	<i class="fa fa-check-circle-o"></i>
-																	30 days ad boost
-																</li>
-																<li>
-																		<i class="fa fa-check-circle-o"></i>
-																		30 days ad boost
-																	</li>
-															</ul>
-													</div>
-													<div class="select-senior-ad">
-															<button class="btn btn-block btn-primary" style="background-color: #27c781; border-color: #d6ead7; color: #fff;">Select</button>
-														</div>
-											</div>
-										</div>
-										<div class="col-md-4">
-											<div class="senior-ads">
-												
-												<div class="senior-ads-header premium" style="background-color: #53CFE9;">
-													<!-- <img src="../assets/images/ad-premium.svg " width="24px"> -->
-													<div class="post-package-title"><span >Premium</span></div>
-													<span>&#8358;</span><h4 style="text-align: center; font-size: 48px!important; font-weight: 500; color: #fff;">5000</h4>
-													<div class="package-value"><span> <i>Most Popular</i> </span></div>
-													
-												</div>
-												<div class="senior-ads-body">
-															
-															
-															<ul class="package-details-list">
-																<li>
-																	<i class="fa fa-check-circle-o"></i>
-																	30 days ad boost
-																</li>
-																<li>
-																	<i class="fa fa-check-circle-o"></i>
-																	30 days ad boost
-																</li>
-																<li>
-																	<i class="fa fa-check-circle-o"></i>
-																	30 days ad boost
-																</li>
-																<li>
-																		<i class="fa fa-check-circle-o"></i>
-																		30 days ad boost
-																	</li>
-															</ul>
-													</div>
-												
-												<div class="select-senior-ad">
-													<button class="btn btn-block btn-primary" style="background-color: #53CFE9; border-color: #d6ead7; color: #fff;">Select</button>
-												</div>
-											</div>
-										</div>
-										<div class="col-md-4">
-												<div class="senior-ads">
-													
-													<div class="senior-ads-header hot" style="background-color: #ED6279;">
-																<!-- <img src="../assets/images/ad-premium.svg " width="24px"> -->
-																<div class="post-package-title hot"><span >Hot Sellers</span></div>
-																<span>&#8358;</span><h4 style="text-align: center; font-size: 48px!important; font-weight: 500; color: #fff;">9000</h4>
-																<div class="package-value"><span> <i>Best Value</i> </span></div>
-																
-															</div>
-														<div class="senior-ads-body">
-															
-															
-															<ul class="package-details-list">
-																<li>
-																	<i class="fa fa-check-circle-o"></i>
-																	30 days ad boost
-																</li>
-																<li>
-																	<i class="fa fa-check-circle-o"></i>
-																	30 days ad boost
-																</li>
-																<li>
-																	<i class="fa fa-check-circle-o"></i>
-																	30 days ad boost
-																</li>
-																<li>
-																		<i class="fa fa-check-circle-o"></i>
-																		30 days ad boost
-																	</li>
-															</ul>
-													</div>
-														<div class="select-senior-ad">
-																<button class="btn btn-block btn-primary" style="background-color: #ED6279; border-color: #d6ead7; color: #fff;">Select</button>
-															</div>
-												</div>
-											</div>
-									</div>
+                  <div class="col-md-4">
+                    <div class="senior-ads form-group">
+                      <div
+                        class="senior-ads-header gold"
+                        style="background-color:  #27c781;"
+                      >
+                        <!-- <img src="../assets/images/ad-premium.svg " width="24px"> -->
+                        <div class="post-package-title gold">
+                          <span>Gold</span>
+                        </div>
+                        <span>&#8358;</span>
+                        <h4
+                          style="text-align: center; font-size: 48px!important; font-weight: 500; color: #fff;"
+                        >
+                          3000
+                        </h4>
+                        <div class="package-value">
+                          <span> <i></i> </span>
+                        </div>
+                      </div>
+                      <div class="senior-ads-body">
+                        <ul class="package-details-list">
+                          <li>
+                            <i class="fa fa-check-circle-o"></i>
+                            30 days ad boost
+                          </li>
+                          <li>
+                            <i class="fa fa-check-circle-o"></i>
+                            30 days ad boost
+                          </li>
+                          <li>
+                            <i class="fa fa-check-circle-o"></i>
+                            30 days ad boost
+                          </li>
+                          <li>
+                            <i class="fa fa-check-circle-o"></i>
+                            30 days ad boost
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="select-senior-ad">
+                        <button
+                          class="btn btn-block btn-primary"
+                          style="background-color: #27c781; border-color: #d6ead7; color: #fff;"
+                        >
+                          Select
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="senior-ads">
+                      <div
+                        class="senior-ads-header premium"
+                        style="background-color: #53CFE9;"
+                      >
+                        <!-- <img src="../assets/images/ad-premium.svg " width="24px"> -->
+                        <div class="post-package-title">
+                          <span>Premium</span>
+                        </div>
+                        <span>&#8358;</span>
+                        <h4
+                          style="text-align: center; font-size: 48px!important; font-weight: 500; color: #fff;"
+                        >
+                          5000
+                        </h4>
+                        <div class="package-value">
+                          <span> <i>Most Popular</i> </span>
+                        </div>
+                      </div>
+                      <div class="senior-ads-body">
+                        <ul class="package-details-list">
+                          <li>
+                            <i class="fa fa-check-circle-o"></i>
+                            30 days ad boost
+                          </li>
+                          <li>
+                            <i class="fa fa-check-circle-o"></i>
+                            30 days ad boost
+                          </li>
+                          <li>
+                            <i class="fa fa-check-circle-o"></i>
+                            30 days ad boost
+                          </li>
+                          <li>
+                            <i class="fa fa-check-circle-o"></i>
+                            30 days ad boost
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div class="select-senior-ad">
+                        <button
+                          class="btn btn-block btn-primary"
+                          style="background-color: #53CFE9; border-color: #d6ead7; color: #fff;"
+                        >
+                          Select
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="senior-ads">
+                      <div
+                        class="senior-ads-header hot"
+                        style="background-color: #ED6279;"
+                      >
+                        <!-- <img src="../assets/images/ad-premium.svg " width="24px"> -->
+                        <div class="post-package-title hot">
+                          <span>Hot Sellers</span>
+                        </div>
+                        <span>&#8358;</span>
+                        <h4
+                          style="text-align: center; font-size: 48px!important; font-weight: 500; color: #fff;"
+                        >
+                          9000
+                        </h4>
+                        <div class="package-value">
+                          <span> <i>Best Value</i> </span>
+                        </div>
+                      </div>
+                      <div class="senior-ads-body">
+                        <ul class="package-details-list">
+                          <li>
+                            <i class="fa fa-check-circle-o"></i>
+                            30 days ad boost
+                          </li>
+                          <li>
+                            <i class="fa fa-check-circle-o"></i>
+                            30 days ad boost
+                          </li>
+                          <li>
+                            <i class="fa fa-check-circle-o"></i>
+                            30 days ad boost
+                          </li>
+                          <li>
+                            <i class="fa fa-check-circle-o"></i>
+                            30 days ad boost
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="select-senior-ad">
+                        <button
+                          class="btn btn-block btn-primary"
+                          style="background-color: #ED6279; border-color: #d6ead7; color: #fff;"
+                        >
+                          Select
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <!-- Should display on selection of above link end -->
 
                 <div class="row total-pricing">
@@ -781,13 +820,12 @@
             <!-- <div class="checkbox checkbox-info">
 								<label class="custom-control mt-4 custom-checkbox"> -->
             <!-- <input type="checkbox" class="custom-control-input" /> -->
-           
+
             <!-- </label>
 							</div> -->
           </div>
         </div>
         <div class="col-xl-4"></div>
-        
       </div>
     </div>
   </section>

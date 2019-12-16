@@ -72,33 +72,29 @@
             </li>
             <li>
               <router-link to="/refferal">
-                <i class="la la-users"></i><span>Referral</span><span class="badge referral">0</span>
+                <i class="la la-users"></i><span>Referral</span
+                ><span class="badge referral">0</span>
               </router-link>
-             
             </li>
             <li>
               <router-link to="/refferal">
                 <i class="la la-star"></i><span>My Ratings</span>
               </router-link>
-              
             </li>
             <li>
-               <router-link to="/orders">
+              <router-link to="/orders">
                 <i class="la la-check-circle-o"></i><span>My Orders</span>
               </router-link>
-              
             </li>
             <li>
               <router-link to="/orders">
                 <i class="la la-cog"></i><span>Settings</span>
               </router-link>
-              
             </li>
             <li>
               <router-link to="/signin">
                 <i class="fa fa-sign-out"></i><span>Logout</span>
               </router-link>
-              
             </li>
           </ul>
         </nav>

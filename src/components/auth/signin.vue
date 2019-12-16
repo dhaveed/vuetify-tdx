@@ -6,10 +6,17 @@
         <div class="col-md-2"></div>
         <div class="col-md-8">
           <div class="form-box" style="border: none;">
-            <div class="row login-logo" >
-               <a href="index.html" style="margin-left: auto; margin-right: auto;">
-                 <img src="../../assets/images/brand/TRADEXPLORAV3.1.png" style="height: 80px;" alt=""/>
-               </a>
+            <div class="row login-logo">
+              <a
+                href="index.html"
+                style="margin-left: auto; margin-right: auto;"
+              >
+                <img
+                  src="../../assets/images/brand/TRADEXPLORAV3.1.png"
+                  style="height: 80px;"
+                  alt=""
+                />
+              </a>
             </div>
 
             <div class="row">
