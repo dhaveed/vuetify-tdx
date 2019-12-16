@@ -289,7 +289,7 @@
                     <div class="senior-ads form-group">
                       <div
                         class="senior-ads-header gold"
-                        style="background-color:  #27c781;"
+                        style="background-color:  #f0ad4e;"
                       >
                         <!-- <img src="../assets/images/ad-premium.svg " width="24px"> -->
                         <div class="post-package-title gold">
@@ -328,7 +328,7 @@
                       <div class="select-senior-ad">
                         <button
                           class="btn btn-block btn-primary"
-                          style="background-color: #27c781; border-color: #d6ead7; color: #fff;"
+                          style="background-color: #F6C98A; border-color: #F6C98A; color: #D37E04;"
                         >
                           Select
                         </button>
@@ -339,7 +339,7 @@
                     <div class="senior-ads">
                       <div
                         class="senior-ads-header premium"
-                        style="background-color: #53CFE9;"
+                        style="background-color: #27c781;"
                       >
                         <!-- <img src="../assets/images/ad-premium.svg " width="24px"> -->
                         <div class="post-package-title">
@@ -379,7 +379,7 @@
                       <div class="select-senior-ad">
                         <button
                           class="btn btn-block btn-primary"
-                          style="background-color: #53CFE9; border-color: #d6ead7; color: #fff;"
+                          style="background-color: #d6ead7; border-color: #d6ead7; color: #4CAF50;"
                         >
                           Select
                         </button>
@@ -390,7 +390,7 @@
                     <div class="senior-ads">
                       <div
                         class="senior-ads-header hot"
-                        style="background-color: #ED6279;"
+                        style="background-color: #4CAF50;"
                       >
                         <!-- <img src="../assets/images/ad-premium.svg " width="24px"> -->
                         <div class="post-package-title hot">
@@ -429,7 +429,7 @@
                       <div class="select-senior-ad">
                         <button
                           class="btn btn-block btn-primary"
-                          style="background-color: #ED6279; border-color: #d6ead7; color: #fff;"
+                          style="background-color: #d6ead7; border-color: #d6ead7; color: #4CAF50;"
                         >
                           Select
                         </button>

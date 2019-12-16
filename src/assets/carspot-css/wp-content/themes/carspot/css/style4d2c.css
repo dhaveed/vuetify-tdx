@@ -15120,6 +15120,10 @@ hr.accent-2 {
     color: #777!important;
 }
 
+.follow-user i {
+    display: inline-block;
+}
+
 
 /* .owl-item {
     margin: 0 80px!important;
