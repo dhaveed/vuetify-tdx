@@ -9,43 +9,7 @@
         <div class="container">
           <!-- Row -->
           <div class="row">
-            <div class="pricing-area">
-              <div class="col-md-8 col-xs-12 col-sm-8">
-                <div class="heading-zone">
-                  <h1>2017 Maserati Ghibli SQ4 Blue</h1>
-                  <div class="short-history">
-                    <nav
-                      aria-label="breadcrumb"
-                      class="d-none d-sm-none d-md-none d-lg-block d-xl-block"
-                    >
-                      <ol class="breadcrumb breadcrumb-tx arrowed mt-2 mb-2">
-                        <li class="breadcrumb-item">
-                          <a href="https://buy.cars45.com/">Home</a>
-                        </li>
-
-                        <li class="breadcrumb-item">
-                          <a href="https://buy.cars45.com/ford">Ford</a>
-                        </li>
-
-                        <li class="breadcrumb-item">
-                          <a href="https://buy.cars45.com/ford-edge">Edge</a>
-                        </li>
-
-                        <li class="breadcrumb-item active">
-                          2017 Maserati Ghibli SQ4 Blue
-                        </li>
-                      </ol>
-                    </nav>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-4 detail_price col-xs-12">
-                <div class="singleprice-tag">
-                  NGN 64,500<span class="">(Negotiable)</span>
-                </div>
-              </div>
-            </div>
-
+            <pricingArea></pricingArea>
             <!-- Middle Content Area -->
             <div class="col-md-8 col-xs-12 col-sm-12">
               <!-- Single Ad -->
@@ -828,11 +792,11 @@ require("../assets/carspot-css/wp-content/themes/carspot/css/carspot-menu4d2c.cs
 require("../assets/carspot-css/wp-content/themes/carspot/css/responsive-media4d2c.css");
 require("../assets/carspot-css/wp-content/themes/carspot/css/colors/defualt.css");
 require("../assets/carspot-css/wp-content/plugins/add-to-any/addtoany.min9be6.css");
-import productSlider from "@/components/product_overview/productSlider";
+import pricingArea from "@/components/product_overview/pricingArea";
 export default {
   name: "productDetails",
   components: {
-    productSlider
+    pricingArea
   },
   methods: {
     sync() {

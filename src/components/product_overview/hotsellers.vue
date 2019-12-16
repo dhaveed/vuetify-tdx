@@ -5,7 +5,7 @@
         <div class="heading-panel">
           <div class="col-xs-12 col-md-12 col-sm-12">
             <h3
-              class="main-title text-left 1212"
+              class="main-title text-left"
               style="border-bottom: 2px solid #4CAF50;"
             >
               Hot Sellers
@@ -16,7 +16,7 @@
             >
           </div>
         </div>
-        <div class="col-xs-6 col-sm-4 col-md-2 col-join-tx">
+        <div class="col-xs-6 col-sm-4 col-md-2">
           <div class="category-grid-box-1 category-grid-box-tx">
             <div class="hot-ribbon">
               <img src="../../assets/images/hoticonv2.png" />
@@ -237,29 +237,51 @@ export default {
     sync() {
       $(document).ready(function() {
         // ______________Owl-carousel-icons2
-        $(".featured-slider-1").owlCarousel({
-          rtl: true,
-          dots: $(".featured-slider-1 .item").length > 1 ? false : false,
-          loop: $(".featured-slider-1 .item").length > 1 ? true : false,
-          margin: -10,
-          responsiveClass: true, // Optional helper class. Add 'owl-reponsive-' + 'breakpoint' class to main element.
-          navText: [
-            "<i class='fa fa-angle-left'></i>",
-            "<i class='fa fa-angle-right'></i>"
-          ],
+        // $(".featured-slider-1").owlCarousel({
+        //   rtl: true,
+        //   dots: $(".featured-slider-1 .item").length > 1 ? false : false,
+        //   loop: $(".featured-slider-1 .item").length > 1 ? true : false,
+        //   margin: -10,
+        //   responsiveClass: true, // Optional helper class. Add 'owl-reponsive-' + 'breakpoint' class to main element.
+        //   navText: [
+        //     "<i class='fa fa-angle-left'></i>",
+        //     "<i class='fa fa-angle-right'></i>"
+        //   ],
+        //   responsive: {
+        //     0: {
+        //       items: 1,
+        //       nav: false
+        //     },
+        //     600: {
+        //       items: 2,
+        //       nav: false
+        //     },
+        //     1000: {
+        //       items: 3,
+        //       nav: false,
+        //       loop: true
+        //     }
+        //   }
+        // });
+        $(".owl-carousel").owlCarousel({
+          items: 5,
+          loop: true,
+          autoplay: true,
+          autoplayTimeout: 3000,
+          autoplayHoverPause: true,
+          responsiveClass: true,
           responsive: {
             0: {
               items: 1,
-              nav: true
+              nav: false
             },
             600: {
-              items: 2,
-              nav: true
+              items: 3,
+              nav: false
             },
             1000: {
-              items: 3,
-              nav: true,
-              loop: false
+              items: 5,
+              nav: true
             }
           }
         });
