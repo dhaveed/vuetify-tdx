@@ -12,8 +12,8 @@
             </h3>
             <span style="display: inline; margin-left: 10px; color: #785edd;">
               Join the hot sellers and increase your sales over 1 million other
-              sellers.</span>
-            
+              sellers.</span
+            >
           </div>
         </div>
         <div class="col-xs-6 col-sm-4 col-md-2 col-join-tx">
@@ -237,7 +237,6 @@ export default {
   methods: {
     sync() {
       $(document).ready(function() {
-       
         $(".owl-carousel").owlCarousel({
           items: 5,
           loop: true,
