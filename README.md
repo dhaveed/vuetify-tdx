@@ -47,7 +47,20 @@ Task to be done,
 - fix signup page in to resolve the background issue Done
 - fixed header on scroll not available	Done
 - home page css scatters when you return from a route
+<<<<<<< HEAD
 - Home page slider 
 - product overview tab is not showing content Done
 - hot sellers slider is not available 
 - too much space after second header
+
+=====================
+- Home page slider
+- product overview tab is not showing content
+- hot sellers slider is not available
+- post ad has no footer
+- benefits of premium not working
+- postad should be shifted up
+- stickyheader should be fixed
+- sticky header should not change size
+- hot-sellers carousel on the gridlist shoudl be fixed.
+
