@@ -14715,6 +14715,7 @@ hr.accent-2 {
     font-family: 'Poppins';
     text-transform: capitalize;
     font-size: 18px;
+    border-radius: 0px!important;
 }
 
 .icon-reveal-btn {
@@ -14724,6 +14725,7 @@ hr.accent-2 {
     font-weight: 600!important;
     padding: 6px 10px!important;
     display: none;
+    border-radius: 0px!important;
 }
 
 .category-grid-box-1:hover .button-reveal-btn {

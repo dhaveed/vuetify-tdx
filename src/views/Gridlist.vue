@@ -2214,8 +2214,8 @@
                             class="img-responsive"
                           />
                         </a>
-                        <div class="price">
-                          <span class="price-tag-tx">&#8358; 77,900</span>
+                        <div class="price-tag">
+                          <div class="price"><span class="price-tag-tx">₦ 77,900</span></div>
                         </div>
                       </div>
                       <div class="short-description-1 clearfix">
