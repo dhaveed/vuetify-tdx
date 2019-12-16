@@ -447,8 +447,8 @@
               </div>
             </div>
             <!-- <div class="card-footer ">
-								<a href="#" class="btn btn-success">Submit Now</a>
-							</div> -->
+                <a href="#" class="btn btn-success">Submit Now</a>
+              </div> -->
           </div>
         </div>
         <div class="col-lg-4 col-md-12">
@@ -567,12 +567,12 @@
                   <div class=" tab-menu-heading border-0 pl-0 pr-0 pt-0">
                     <div class="tabs-menu1 ">
                       <!-- Tabs -->
-												<ul class="nav panel-tabs">
-													<li><a href="#tab5" class="active" data-toggle="tab"> <img src="../../assets/images/wallet.svg" height="20px" style="margin-top: -4px;" alt="" srcset=""> Wallet</a></li>
-													<li><a href="#tab6" data-toggle="tab"> <img src="../../assets/images/master_card.png" height="20px" style="margin-top: -4px;" alt="" srcset=""> Credit/ Debit Card</a></li>
-													<li><a href="#tab7" data-toggle="tab"> <i class="fa fa-university"></i> Cash</a></li>
-													<!-- <li><a href="#tab8" data-toggle="tab">Gift Voucher</a></li> -->
-												</ul>
+                        <ul class="nav panel-tabs">
+                          <li><a href="#tab5" class="active" data-toggle="tab"> <img src="../../assets/images/wallet.svg" height="20px" style="margin-top: -4px;" alt="" srcset=""> Wallet</a></li>
+                          <li><a href="#tab6" data-toggle="tab"> <img src="../../assets/images/master_card.png" height="20px" style="margin-top: -4px;" alt="" srcset=""> Credit/ Debit Card</a></li>
+                          <li><a href="#tab7" data-toggle="tab"> <i class="fa fa-university"></i> Cash</a></li>
+                          <!-- <li><a href="#tab8" data-toggle="tab">Gift Voucher</a></li> -->
+                        </ul>
                     </div>
                   </div>
                   <div class="panel-body tabs-menu-body pl-0 pr-0 border-0">
@@ -587,9 +587,9 @@
                               placeholder="Wallet ID"
                             />
                             <!-- <span class="input-group-append">
-																<button class="btn btn-info" type="button"><i class="fa fa-cc-visa"></i> &nbsp; <i class="fa fa-cc-amex"></i> &nbsp;
-																<i class="fa fa-cc-mastercard"></i></button>
-															</span> -->
+                                <button class="btn btn-info" type="button"><i class="fa fa-cc-visa"></i> &nbsp; <i class="fa fa-cc-amex"></i> &nbsp;
+                                <i class="fa fa-cc-mastercard"></i></button>
+                              </span> -->
                           </div>
                         </div>
                         <div class="form-group">
@@ -628,22 +628,22 @@
                           </li>
                         </ul>
                         <!-- <div class="row">
-														<div class="col-sm-8">
-															<div class="form-group mb-sm-0">
-																<label class="form-label">Expiration</label>
-																<div class="input-group">
-																	<input type="number" class="form-control" placeholder="MM" name="expiremonth">
-																	<input type="number" class="form-control" placeholder="YY" name="expireyear">
-																</div>
-															</div>
-														</div>
-														<div class="col-sm-4 ">
-															<div class="form-group mb-0">
-																<label class="form-label">CVV <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="top" title="Please Enter last 3 digits"></i></label>
-																<input type="number" class="form-control" required="">
-															</div>
-														</div>
-													</div> -->
+                            <div class="col-sm-8">
+                              <div class="form-group mb-sm-0">
+                                <label class="form-label">Expiration</label>
+                                <div class="input-group">
+                                  <input type="number" class="form-control" placeholder="MM" name="expiremonth">
+                                  <input type="number" class="form-control" placeholder="YY" name="expireyear">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-4 ">
+                              <div class="form-group mb-0">
+                                <label class="form-label">CVV <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="top" title="Please Enter last 3 digits"></i></label>
+                                <input type="number" class="form-control" required="">
+                              </div>
+                            </div>
+                          </div> -->
                       </div>
                       <div class="tab-pane " id="tab6">
                         <div class="form-group">
