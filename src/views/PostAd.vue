@@ -761,54 +761,11 @@
                             <li>Amount: <b>&#8358;9,000</b></li>
                           </ul>
                         </div>
-                        <!-- <div class="control-group form-group">
-														<div class="form-group">
-															<label class="form-label text-dark">All Banks</label>
-															<select class="form-control custom-select required category">
-																<option value="0">Select Bank</option>
-																<option value="1">Credit Agricole Group</option>
-																<option value="2">Bank of America</option>
-																<option value="3">Mitsubishi UFJ Financial Group</option>
-																<option value="4">BNP Paribas</option>
-																<option value="5">JPMorgan Chase & Co.</option>
-																<option value="6">HSBC Holdings</option>
-																<option value="7">Bank of China</option>
-																<option value="8">Agricultural Bank of China</option>
-																<option value="9">ChinaFlats Bank Corp.</option>
-																<option value="10">Industrial & Commercial Bank of China, or ICBC</option>
-															</select>
-														</div>
-													</div>
-													<p><a href="#" class="btn btn-primary">Log in Bank</a></p> -->
                       </div>
-                      <!-- <div class="tab-pane " id="tab8">
-													<div class="form-group">
-														<label class="form-label">Gift Voucher</label>
-														<div class="input-group">
-															<input type="text" class="form-control" placeholder="Enter Your Gv Number">
-															<span class="input-group-append">
-																<button class="btn btn-info" type="button">
-																Apply</button>
-															</span>
-														</div>
-													</div>
-												</div> -->
                     </div>
                   </div>
                 </div>
-                <!-- <div class="form-group row clearfix">
-										<div class="col-lg-12">
-											<div class="checkbox checkbox-info">
-												<label class="custom-control mt-4 custom-checkbox">
-													<input type="checkbox" class="custom-control-input" />
-													<span class="custom-control-label text-dark pl-2">I agree with the Terms and Conditions.</span>
-												</label>
-											</div>
-										</div>
-										<ul class=" mb-b-4 ">
-											<li><a href="#" class="btn btn-primary  mb-0 mr-2">Continue</a></li>
-										</ul>
-									</div> -->
+
               </div>
             </div>
           </div>
@@ -817,12 +774,6 @@
         <div class="col-xl-8">
           <div class="post-ad-submit-button">
             <button class="btn btn-primary bt-block">Post Your Ad</button>
-            <!-- <div class="checkbox checkbox-info">
-								<label class="custom-control mt-4 custom-checkbox"> -->
-            <!-- <input type="checkbox" class="custom-control-input" /> -->
-
-            <!-- </label>
-							</div> -->
           </div>
         </div>
         <div class="col-xl-4"></div>
@@ -833,6 +784,20 @@
 </template>
 
 <script>
+require("../assets/plugins/bootstrap-4.3.1-dist/css/bootstrap.min.css");
+require("../assets/css/style.css");
+require("../assets/css/icons.css");
+require("../assets/plugins/horizontal-menu/horizontal.css");
+require("../assets/plugins/select2/select2.min.css");
+require("../assets/plugins/cookie/cookie.css");
+require("../assets/plugins/owl-carousel/owl.carousel.css");
+require("../assets/plugins/scroll-bar/jquery.mCustomScrollbar.css");
+require("../assets/skins/color-skins/color15.css");
+require("../assets/css/flaticon24d2c.css");
+require("../assets/plugins/slick-1.8.1/slick-1.8.1/slick/slick.css");
+require("../assets/plugins/slick-1.8.1/slick-1.8.1/slick/slick-theme.css");
+require("../assets/carspot-css/wp-content/themes/carspot/footerSpecial.css");
+
 export default {};
 </script>
 
