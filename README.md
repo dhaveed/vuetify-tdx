@@ -50,3 +50,9 @@ Task to be done,
 - Home page slider
 - product overview tab is not showing content
 - hot sellers slider is not available
+- post ad has no footer
+- benefits of premium not working
+- postad should be shifted up
+- stickyheader should be fixed
+- sticky header should not change size
+- hot-sellers carousel on the gridlist shoudl be fixed.
