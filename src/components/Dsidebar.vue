@@ -19,20 +19,23 @@
               <div class="text-box">Welcome back: <span>testuser </span></div>
             </li>
             <li>
-              <a href="../tempview/dashboard-carspot.html" class="active"
-                ><i class="la la-home"></i> <span>Dashboard</span></a
-              >
+              <router-link to="/maindashboard">
+                <i class="la la-home"></i> <span>Dashboard</span>
+              </router-link>
+             
             </li>
             <li>
-              <a href="../tempview/edit-profile-carspot.html" class=""
-                ><i class="la la-pencil"></i> <span>Edit Profile</span></a
-              >
+               <router-link to="/editProfile">
+                <i class="la la-pencil"></i> <span>Edit Profile</span>
+              </router-link>
+             
             </li>
 
             <li>
-              <a href="../tempview/messaging.html" class=""
-                ><i class="la la-envelope"></i> <span>My Messages</span></a
-              >
+              <router-link to="/messaging">
+                <i class="la la-envelope"></i> <span>My Messages</span><span class="badge referral">0</span>
+              </router-link>
+             
             </li>
             <li>
               <a href="#subPages" class="collapsed" data-toggle="collapse"
@@ -42,36 +45,34 @@
               <div id="subPages" class="collapse ">
                 <ul class="nav">
                   <li>
-                    <a href="../tempview/published-inventory.html" class="">
-                      Published
-                      <span class="badge">
-                        0
-                      </span>
-                    </a>
+                    <router-link to="/publishedInventory">
+                      <span>Published</span><span class="badge">0</span>
+                    </router-link>
+                    
                   </li>
                   <li>
-                    <a href="../tempview/published-inventory.html" class="">
-                      Expired
-                      <span class="badge"> 0 </span>
-                    </a>
+                    <router-link to="/ordersInventory">
+                      <span>Expired</span><span class="badge">0</span>
+                    </router-link>
+                    
                   </li>
                   <li>
-                    <a href="../tempview/published-inventory.html" class="">
-                      Sold
-                      <span class="badge"> 0 </span>
-                    </a>
+                    <router-link to="/messaging">
+                      <span>Sold</span><span class="badge">0</span>
+                    </router-link>
+                    
                   </li>
                   <li>
-                    <a href="../tempview/published-inventory.html" class="">
-                      Pending
-                      <span class="badge"> 0 </span>
-                    </a>
+                    <router-link to="/messaging">
+                      <span>Pending</span><span class="badge">0</span>
+                    </router-link>
+                    
                   </li>
                   <li>
-                    <a href="../tempview/published-inventory.html" class="">
-                      Saved
-                      <span class="badge"> 0 </span>
-                    </a>
+                    <router-link to="/messaging">
+                      <span>Saved</span><span class="badge">0</span>
+                    </router-link>
+                    
                   </li>
                 </ul>
               </div>

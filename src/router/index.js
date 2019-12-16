@@ -26,7 +26,7 @@ const routes = [
     name: "register",
     component: () => import("../views/register.vue"),
     meta: {
-      header: 3
+      header: 1
     }
   },
   {
