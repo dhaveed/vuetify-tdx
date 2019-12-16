@@ -41514,7 +41514,7 @@ body .modal-open {
 	border-radius: 3px;
 	box-shadow: 0 1px 1px rgba(180, 180, 180, 0.5);
 	margin-bottom: 30px;
-	padding: 20px;
+	padding: 20px 40px 40px;
 }
 
 .form-box-title {
@@ -41726,15 +41726,15 @@ body .modal-open {
 	}
 
 	.senior-ads-header.premium::after {
-		border-top-color: #27c781;
+		border-top-color: #53CFE9;
 	}
 
 	.senior-ads-header.gold::after {
-		border-top-color: #f0ad4e;
+		border-top-color: #27c781;
 	}
 
 	.senior-ads-header.hot::after {
-		border-top-color: #4CAF50;
+		border-top-color: #ED6279;
 	}
 	
 	.senior-ads-header img {
@@ -41752,17 +41752,17 @@ body .modal-open {
 	}
 
 	.post-package-title {
-		background-color: #23bb78;
+		background-color: #3FC7E1;
 		padding: 4px 0px;
 		border-radius: 10px 10px 0px 0px;
 	}
 
 	.post-package-title.gold {
-		background-color: #e4a040;
+		background-color: #23bb78;
 	}
 
 	.post-package-title.hot {
-		background-color: #429c46;
+		background-color: #E2546C;
 	}
 
 	.post-package-title span{
@@ -42021,6 +42021,9 @@ body .modal-open {
 
 .profile-dropdown-link {
 	padding: 12px 20px!important;
+}
+.login-logo {
+	margin-bottom: 24px;
 }
 
 /* .search-box {

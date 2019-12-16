@@ -220,7 +220,7 @@
                               <span
                                 class=""
                                 style="float: right; font-size: 18px;"
-                                >&#8358; 00</span
+                                > <span style="font-size: 14px;">(Free) </span>  &#8358; 0.00</span
                               ></span
                             >
                           </label>
@@ -271,24 +271,7 @@
                     </div>
                   </div>
 
-                  <!-- <div class="d-md-flex ad-post-details">
-											<label class="custom-control custom-radio mb-2 mr-4">
-												<input type="radio" class="custom-control-input" name="radios1" value="option7" checked="">
-												<span class="custom-control-label">Regular List / <span class="font-weight-bold">&#8358;00</span></span>
-											</label>
-											<label class="custom-control custom-radio  mb-2 mr-4">
-												<input type="radio" class="custom-control-input" name="radios1" value="option8" >
-												<span class="custom-control-label">Urgent Ad / <span class="font-weight-bold">&#8358;500</span></span>
-											</label>
-											<label class="custom-control custom-radio  mb-2 mr-4">
-												<input type="radio" class="custom-control-input" name="radios1" value="option9" >
-												<span class="custom-control-label">Top Ad /<span class="font-weight-bold">&#8358;1000</span></span>
-											</label>
-											<label class="custom-control custom-radio  mb-2">
-												<input type="radio" class="custom-control-input" name="radios1" value="option10" >
-												
-											</label>
-										</div> -->
+                 
                 </div>
                 <div class="link-to-senior-ads">
                   <span class="explanatory-text">Make you ad PREMIUM </span>
@@ -301,18 +284,21 @@
                 </div>
 
                 <!-- Should display on selection of above link -->
-                <!-- <div class="row" style="margin-top: 20px;">
+                <div class="row" style="margin-top: 20px;">
 										<div class="col-md-4">
 											<div class="senior-ads form-group">
 												
-												<div class="senior-ads-header" style="background-color: #F0AD4E;">
-														
-														<span style="margin-right: 0px;"><h4>Gold</h4></span>
-													</div>
+												<div class="senior-ads-header gold" style="background-color:  #27c781;">
+															<!-- <img src="../assets/images/ad-premium.svg " width="24px"> -->
+															<div class="post-package-title gold"><span >Gold</span></div>
+															<span>&#8358;</span><h4 style="text-align: center; font-size: 48px!important; font-weight: 500; color: #fff;">3000</h4>
+															<div class="package-value"><span> <i></i> </span></div>
+															
+														</div>
 													<div class="senior-ads-body">
 															
-															<p style="text-align: center; font-size: 32px; font-weight: 500;">&#8358;3000</p>
-															<ul>
+															
+															<ul class="package-details-list">
 																<li>
 																	<i class="fa fa-check-circle-o"></i>
 																	30 days ad boost
@@ -325,89 +311,98 @@
 																	<i class="fa fa-check-circle-o"></i>
 																	30 days ad boost
 																</li>
+																<li>
+																		<i class="fa fa-check-circle-o"></i>
+																		30 days ad boost
+																	</li>
 															</ul>
 													</div>
 													<div class="select-senior-ad">
-															<button class="btn btn-block btn-primary"style="background-color: #d6ead7; border-color: #d6ead7; color: #4CAF50;">Select</button>
+															<button class="btn btn-block btn-primary" style="background-color: #27c781; border-color: #d6ead7; color: #fff;">Select</button>
 														</div>
 											</div>
 										</div>
 										<div class="col-md-4">
 											<div class="senior-ads">
 												
-												<div class="senior-ads-header" style="background-color: #27c781;">
-													<img src="../assets/images/ad-premium.svg " width="24px">
-													<span><h4>Premium</h4></span>
+												<div class="senior-ads-header premium" style="background-color: #53CFE9;">
+													<!-- <img src="../assets/images/ad-premium.svg " width="24px"> -->
+													<div class="post-package-title"><span >Premium</span></div>
+													<span>&#8358;</span><h4 style="text-align: center; font-size: 48px!important; font-weight: 500; color: #fff;">5000</h4>
+													<div class="package-value"><span> <i>Most Popular</i> </span></div>
 													
 												</div>
 												<div class="senior-ads-body">
-													<div class="ad-post-tags">
-														<p style="font-size: 12px; font-weight: 500;">MOST POPULAR</p>
+															
+															
+															<ul class="package-details-list">
+																<li>
+																	<i class="fa fa-check-circle-o"></i>
+																	30 days ad boost
+																</li>
+																<li>
+																	<i class="fa fa-check-circle-o"></i>
+																	30 days ad boost
+																</li>
+																<li>
+																	<i class="fa fa-check-circle-o"></i>
+																	30 days ad boost
+																</li>
+																<li>
+																		<i class="fa fa-check-circle-o"></i>
+																		30 days ad boost
+																	</li>
+															</ul>
 													</div>
-														
-														<p style="text-align: center; font-size: 32px; font-weight: 500;">&#8358;5000</p>
-															<ul>
-															<li>
-																<i class="fa fa-check-circle-o"></i>
-																30 days ad boost
-															</li>
-															<li>
-																<i class="fa fa-check-circle-o"></i>
-																30 days ad boost
-															</li>
-															<li>
-																<i class="fa fa-check-circle-o"></i>
-																30 days ad boost
-															</li>
-														</ul>
-												</div>
 												
 												<div class="select-senior-ad">
-													<button class="btn btn-block btn-primary"style="background-color: #d6ead7; border-color: #d6ead7; color: #4CAF50;">Select</button>
+													<button class="btn btn-block btn-primary" style="background-color: #53CFE9; border-color: #d6ead7; color: #fff;">Select</button>
 												</div>
 											</div>
 										</div>
 										<div class="col-md-4">
 												<div class="senior-ads">
 													
-													<div class="senior-ads-header" style="background-color: #4CAF50; padding-bottom: 10px;">
-															
-															<img src="../assets/images/hot-deals.svg " width="24px">
-															
-															<span><h4>Hot Sellers</h4></span>
-														</div>
-														<div class="senior-ads-body">
-																<div class="ad-post-tags">
-																		<p style="font-size: 12px; font-weight: 500; background-color: #785edd; margin-left: 40px;">BEST VALUE</p>
-																	</div>
+													<div class="senior-ads-header hot" style="background-color: #ED6279;">
+																<!-- <img src="../assets/images/ad-premium.svg " width="24px"> -->
+																<div class="post-package-title hot"><span >Hot Sellers</span></div>
+																<span>&#8358;</span><h4 style="text-align: center; font-size: 48px!important; font-weight: 500; color: #fff;">9000</h4>
+																<div class="package-value"><span> <i>Best Value</i> </span></div>
 																
-																<p style="text-align: center; font-size: 32px; font-weight: 500;">&#8358;9000</p>
-																<ul>
-																	<li>
+															</div>
+														<div class="senior-ads-body">
+															
+															
+															<ul class="package-details-list">
+																<li>
+																	<i class="fa fa-check-circle-o"></i>
+																	30 days ad boost
+																</li>
+																<li>
+																	<i class="fa fa-check-circle-o"></i>
+																	30 days ad boost
+																</li>
+																<li>
+																	<i class="fa fa-check-circle-o"></i>
+																	30 days ad boost
+																</li>
+																<li>
 																		<i class="fa fa-check-circle-o"></i>
 																		30 days ad boost
 																	</li>
-																	<li>
-																		<i class="fa fa-check-circle-o"></i>
-																		30 days ad boost
-																	</li>
-																	<li>
-																		<i class="fa fa-check-circle-o"></i>
-																		30 days ad boost
-																	</li>
-																</ul>
-														</div>
+															</ul>
+													</div>
 														<div class="select-senior-ad">
-																<button class="btn btn-block btn-primary"style="background-color: #d6ead7; border-color: #d6ead7; color: #4CAF50;">Select</button>
+																<button class="btn btn-block btn-primary" style="background-color: #ED6279; border-color: #d6ead7; color: #fff;">Select</button>
 															</div>
 												</div>
 											</div>
-									</div> -->
+									</div>
                 <!-- Should display on selection of above link end -->
 
                 <div class="row total-pricing">
                   <div class="total-pricing-sub-div">
-                    <p><i> Total: &#8358; 00</i></p>
+                    <p><i> Total: &#8358; 0.00</i></p>
                   </div>
                 </div>
               </div>
@@ -786,42 +781,13 @@
             <!-- <div class="checkbox checkbox-info">
 								<label class="custom-control mt-4 custom-checkbox"> -->
             <!-- <input type="checkbox" class="custom-control-input" /> -->
-            <p class="pt-3" style="opacity: 0.7;">
-              Posting this ad means that you have agreed with the
-              <a href="#" style=" color :#4CAF50 !important"
-                >Terms & Conditions</a
-              >
-              .
-            </p>
+           
             <!-- </label>
 							</div> -->
           </div>
         </div>
         <div class="col-xl-4"></div>
-        <div class="col-xl-8">
-          <div class="row">
-            <div class="col-md-3">
-              <div class="social-media-post-ad">
-                <p>Facebook</p>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="social-media-post-ad">
-                <p>Twitter</p>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="social-media-post-ad">
-                <p>Instagram</p>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="social-media-post-ad">
-                <p>Linkedin</p>
-              </div>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </div>
   </section>
