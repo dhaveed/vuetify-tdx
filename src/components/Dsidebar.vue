@@ -71,30 +71,34 @@
               </div>
             </li>
             <li>
-              <a href="../tempview/refferals.html" class=""
-                ><i class="la la-users"></i> <span>Referral</span
-                ><span class="badge referral">0</span>
-              </a>
+              <router-link to="/refferal">
+                <i class="la la-users"></i><span>Referral</span><span class="badge referral">0</span>
+              </router-link>
+             
             </li>
             <li>
-              <a href="../tempview/ratings-inventory.html" class=""
-                ><i class="la la-star"></i> <span>My Ratings </span></a
-              >
+              <router-link to="/refferal">
+                <i class="la la-star"></i><span>My Ratings</span>
+              </router-link>
+              
             </li>
             <li>
-              <a href="../tempview/orders-inventory.html"
-                ><i class="la la-check-circle-o"></i> <span> My Orders</span></a
-              >
+               <router-link to="/orders">
+                <i class="la la-check-circle-o"></i><span>My Orders</span>
+              </router-link>
+              
             </li>
             <li>
-              <a href="../tempview/settings-carspot.html"
-                ><i class="la la-cog"></i> <span> Settings</span></a
-              >
+              <router-link to="/orders">
+                <i class="la la-cog"></i><span>Settings</span>
+              </router-link>
+              
             </li>
             <li>
-              <a href="#" class=""
-                ><i class="fa fa-sign-out"></i> <span>Logout</span></a
-              >
+              <router-link to="/signin">
+                <i class="fa fa-sign-out"></i><span>Logout</span>
+              </router-link>
+              
             </li>
           </ul>
         </nav>

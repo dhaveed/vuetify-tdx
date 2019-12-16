@@ -67,10 +67,10 @@
         <nav class="horizontalMenu clearfix d-md-flex">
           <div class="desktoplogo">
             <a href="index.html"
-              ><img src="../assets/images/brand/tradexplora-main.svg" alt=""
+              ><img src="../assets/images/brand/TRADEXPLORAV3.1.png" alt=""
             /></a>
           </div>
-          <ul class="horizontalMenu-list">
+          <ul class="horizontalMenu-list" style="margin-top: 12px;">
             <li aria-haspopup="true"><a href="about.html"> ABOUT US </a></li>
             <li aria-haspopup="true"><a href="#"> FAQ </a></li>
             <!-- <li aria-haspopup="true"><a href="widgets.html">WIDGETS</a></li>							 -->
@@ -99,7 +99,7 @@
             <div class="contact-in-header">
               <i class="flaticon-customer-service"></i>
               <span
-                style="color: #999; float: right; line-height: 25px; margin-left: 10px; font-size: 16px;"
+                style="color: #999; float: right; line-height: 25px; margin-left: 10px; margin-top: 10px; font-size: 16px;"
               >
                 Call Us Now
                 <br />

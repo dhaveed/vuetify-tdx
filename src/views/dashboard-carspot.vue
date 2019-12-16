@@ -76,7 +76,7 @@
                   <div class="panel-heading">
                     <h3 class="panel-title">Most Viewed Posts</h3>
                     <a
-                      href="https://carspot.scriptsbundle.com/user-dashboard/?page-type=published-ads"
+                      href=""
                       class=""
                     >
                       View All Posts</a
@@ -105,7 +105,7 @@
                   <div class="panel-heading">
                     <h3 class="panel-title">Most Recent Reviews</h3>
                     <a
-                      href="https://carspot.scriptsbundle.com/user-dashboard/?page-type=my_ratings"
+                      href=""
                       class=""
                     >
                       View All Reviews</a
