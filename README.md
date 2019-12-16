@@ -43,10 +43,11 @@ to reduce the size of the top nav at the side bar
 
 Task to be done,
 
-- fix sidebar of dashboard
-- fix signup page in to resolve the background issue
-- fixed header on scroll not available
+- fix sidebar of dashboard Done
+- fix signup page in to resolve the background issue Done
+- fixed header on scroll not available	Done
 - home page css scatters when you return from a route
-- Home page slider
-- product overview tab is not showing content
-- hot sellers slider is not available
+- Home page slider 
+- product overview tab is not showing content Done
+- hot sellers slider is not available 
+- too much space after second header

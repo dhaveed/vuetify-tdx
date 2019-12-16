@@ -1088,8 +1088,8 @@ hello.utils.extend(hello.utils, {
       /*  initialize object  */
       this.id = "Thenable/1.0.6";
       this.state = STATE_PENDING; /*  initial state  */
-      this.fulfillValue = undefined; /*  initial value  */ /*  [Promises/A+ 1.3, 2.1.2.2]  */
-      this.rejectReason = undefined; /*  initial reason */ /*  [Promises/A+ 1.5, 2.1.3.2]  */
+      this.fulfillValue = undefined; /*  [Promises/A+ 1.3, 2.1.2.2]  */ /*  initial value  */
+      this.rejectReason = undefined; /*  [Promises/A+ 1.5, 2.1.3.2]  */ /*  initial reason */
       this.onFulfilled = []; /*  initial handlers  */
       this.onRejected = []; /*  initial handlers  */
 

@@ -2219,55 +2219,55 @@
                         </div>
                       </div>
                       <div class="short-description-1 clearfix">
-                      <div class="category-title">
-                        <span class="padding_cats">
-                          <a href="../ad_category/rolls-royce/index.html"
-                            >Rolls-Royce</a
+                        <div class="category-title">
+                          <span class="padding_cats">
+                            <a href="../ad_category/rolls-royce/index.html"
+                              >Rolls-Royce</a
+                            >
+                          </span>
+                        </div>
+                        <h3>
+                          <a href="../ad/rolls-royce-phantom/index.html"
+                            >Rolls Royce Phantom</a
                           >
-                        </span>
+                        </h3>
+                        <p class="location">
+                          <i class="fa fa-map-marker"></i>
+                          <a href="../ad_country/dalton/index.html">Dalton</a>,
+                          <a href="../ad_country/georgia/index.html">Georgia</a
+                          >,
+                          <a href="../ad_country/united-states/index.html"
+                            >United States</a
+                          >
+                        </p>
+                        <ul class="list-unstyled">
+                          <li><i class="flaticon-gas-station-1"></i>Diesel</li>
+                          <li><i class="flaticon-dashboard"></i>70,000 Km</li>
+                          <li><i class="flaticon-engine-2"></i>3,500 cc</li>
+                          <li><i class="flaticon-car-2"></i>Sedan</li>
+                          <li><i class="flaticon-cogwheel-outline"></i>Red</li>
+                        </ul>
                       </div>
-                      <h3>
-                        <a href="../ad/rolls-royce-phantom/index.html"
-                          >Rolls Royce Phantom</a
-                        >
-                      </h3>
-                      <p class="location">
-                        <i class="fa fa-map-marker"></i>
-                        <a href="../ad_country/dalton/index.html">Dalton</a>,
-                        <a href="../ad_country/georgia/index.html">Georgia</a>,
-                        <a href="../ad_country/united-states/index.html"
-                          >United States</a
-                        >
-                      </p>
-                      <ul class="list-unstyled">
-                        <li><i class="flaticon-gas-station-1"></i>Diesel</li>
-                        <li><i class="flaticon-dashboard"></i>70,000 Km</li>
-                        <li><i class="flaticon-engine-2"></i>3,500 cc</li>
-                        <li><i class="flaticon-car-2"></i>Sedan</li>
-                        <li><i class="flaticon-cogwheel-outline"></i>Red</li>
-                      </ul>
-                    </div>
-                    <div class="ad-info-1">
-                      <p>
-                        <i class="flaticon-calendar"></i> &nbsp;
-                        <span>July 13, 2017</span>
-                      </p>
-                      <!-- <ul class="pull-right "><li><a data-toggle="tooltip" data-placement="top" title="" data-original-title="Save Ad" href="javascript:void(0);" class="save-ad" data-adid="873"><i class="flaticon-like-1"></i></a></li><li><a href="../ad/rolls-royce-phantom/index.html"><i class="flaticon-message"></i></a></li></ul> -->
-                      <div class="icon-reveal">
-                        <a class="btn icon-reveal-btn">
-                          <i class="fa fa-heart-o"></i>
-                        </a>
-                      </div>
-                      <div class="button-reveal">
-                        <a
-                          class="btn btn-block button-reveal-btn"
-                          href="productdetail.html"
-                          >Contact Seller</a
-                        >
+                      <div class="ad-info-1">
+                        <p>
+                          <i class="flaticon-calendar"></i> &nbsp;
+                          <span>July 13, 2017</span>
+                        </p>
+                        <!-- <ul class="pull-right "><li><a data-toggle="tooltip" data-placement="top" title="" data-original-title="Save Ad" href="javascript:void(0);" class="save-ad" data-adid="873"><i class="flaticon-like-1"></i></a></li><li><a href="../ad/rolls-royce-phantom/index.html"><i class="flaticon-message"></i></a></li></ul> -->
+                        <div class="icon-reveal">
+                          <a class="btn icon-reveal-btn">
+                            <i class="fa fa-heart-o"></i>
+                          </a>
+                        </div>
+                        <div class="button-reveal">
+                          <a
+                            class="btn btn-block button-reveal-btn"
+                            href="productdetail.html"
+                            >Contact Seller</a
+                          >
+                        </div>
                       </div>
                     </div>
-                    </div>
-                    
                   </div>
                   <!-- Listing Ad Grid -->
                 </div>
