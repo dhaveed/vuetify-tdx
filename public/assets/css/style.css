@@ -122,6 +122,14 @@
 	padding: 0 !important;
 }
 
+.short-features {
+  width: 100%;
+}
+
+.owl-item .img-responsive {
+  height: 10rem !important;
+}
+
 /*------- Bootstrap Framework -------*/
 *, ::after, ::before {
 	box-sizing: border-box;
