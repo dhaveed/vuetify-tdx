@@ -343,13 +343,15 @@
             /></a>
           </div>
           <ul class="horizontalMenu-list" style="margin-top: 12px;">
-            <li aria-haspopup="true"><a href="about.html"> ABOUT US </a></li>
-            <li aria-haspopup="true"><a href="#"> FAQ </a></li>
+            <li aria-haspopup="true"><a href="about.html"> Airtime </a></li>
+            <li aria-haspopup="true"><a href="#"> Data </a></li>
+            <li aria-haspopup="true"><a href="#"> TV </a></li>
             <li aria-haspopup="true">
               <a href="contact.html">
-                CONTACT US <span class="hmarrow"></span
+                Electricity <span class="hmarrow"></span
               ></a>
             </li>
+            <li aria-haspopup="true"><a href="#"> More Services </a></li>
             <li aria-haspopup="true" class="d-lg-none mt-5 pb-5 mt-lg-0"></li>
           </ul>
           <div class="call-us-now">
@@ -378,6 +380,8 @@
 export default {
   name: "topbar"
 };
+
+
 </script>
 
 <style></style>

@@ -806,10 +806,10 @@
 /* eslint-disable no-undef */
 // import * from '../../assets/plugins/vertical-scroll/jquery.bootstrap.newsbox.js';
 export default {
-
   name: "postad",
   methods: {
     sync() {
+      console.log("jquery logged in")
       $("#demo").FancyFileUpload({
         params: {
           action: "fileuploader"
@@ -849,4 +849,6 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+  
+</style>

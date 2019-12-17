@@ -729,6 +729,9 @@ pre code {
 	line-height: 80px;
 	text-align: center;
 }
+.categories .new-search {
+	padding: 14px 24px!important;
+}
 .content-box h4 {
 	font-size: 43px!important;
 }
@@ -20237,6 +20240,11 @@ a.typewrite {
 	width: 15px;
 	color: #4baf50!important;
 }
+
+.location-gps-cat {
+	top: 16px!important;
+}
+
 .header-style .horizontalMenu {
 	float: inherit !important;
 }
@@ -22340,7 +22348,7 @@ select.form-control.select-sm {
 }
 .select2-container--default .select2-selection--single {
 	background-color: #fff;
-	border: 1px solid #e8ebf3!important;
+	border: none!important;
 	border-radius: 4px;
 }
 .select2-container--default.select2-container--focus .select2-selection--multiple {
@@ -22377,6 +22385,12 @@ select.form-control.select-sm {
 	border: 2px solid #4CAF50!important;
 	outline: 0;
 	box-shadow: none;
+}
+.form-control:focus.main-search {
+	border: none!important;
+}
+.form-control:focus.main-location {
+	border: none!important;
 }
 .form-control::-webkit-input-placeholder {
 	color: #a7b4c9;
@@ -35636,7 +35650,7 @@ svg {
 		margin-bottom: .5rem;
 		font-size: 2rem;
 	}
-	.all-categories .row .card-body {
+	.all-b .row .card-body {
 		border-bottom: 0!important;
 	}
 	.ace-responsive-menu {
@@ -41993,7 +42007,7 @@ body .modal-open {
 
 .vl-1 {
 	border-left: 1px solid #dadada;
-    height: 102px;
+    height: 82px;
     position: absolute;
     left: 34%;
     margin-left: -3px;
@@ -42002,7 +42016,7 @@ body .modal-open {
 
 .vl-2 {
 	border-left: 1px solid #dadada;
-    height: 102px;
+    height: 82px;
     position: absolute;
     left: 66%;
     margin-left: -3px;
@@ -42033,6 +42047,10 @@ body .modal-open {
 
 .wallet-balance span img {
 	margin-right: 5px;
+}
+
+span.select2-container--default {
+	padding-left: 40px!important;
 }
 
 
