@@ -804,7 +804,9 @@
 </template>
 <script>
 /* eslint-disable no-undef */
+// import * from '../../assets/plugins/vertical-scroll/jquery.bootstrap.newsbox.js';
 export default {
+
   name: "postad",
   methods: {
     sync() {

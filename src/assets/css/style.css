@@ -10919,6 +10919,9 @@ a.card-tabs-item.active {
 .sales-relative {
 	position: relative;
 }
+.select2-container--default .select2-selection--single {
+	border: none!important;
+}
 .icon-absolute {
 	position: absolute;
 	display: block;
@@ -20227,12 +20230,12 @@ a.typewrite {
 	height: 20px;
 	line-height: 33px;
 	position: absolute;
-	right: 12px;
+	left: 12px!important;
 	text-align: right;
-	top: 14.5px;
+	top: 17.5px!important;
 	background: #fff;
 	width: 15px;
-	color: #a7b4c9;
+	color: #4baf50!important;
 }
 .header-style .horizontalMenu {
 	float: inherit !important;
@@ -41966,10 +41969,44 @@ body .modal-open {
 
 .main-search {
 	border-radius: 60px 0px 0px 60px!important;
+	border: none!important;
+	padding-left: 40px;
+}
+
+.main-location {
+	border: none!important;
+	padding-left: 40px;
+}
+
+.main-category {
+	border: none!important;
+	padding-left: 40px;
 }
 
 .main-search-button {
-	border-radius: 0px 60px 60px 0px!important;
+	border-radius: 6px!important;
+}
+
+.main-search-button-container {
+	text-align: center;
+}
+
+.vl-1 {
+	border-left: 1px solid #dadada;
+    height: 102px;
+    position: absolute;
+    left: 34%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.vl-2 {
+	border-left: 1px solid #dadada;
+    height: 102px;
+    position: absolute;
+    left: 66%;
+    margin-left: -3px;
+    top: 0;
 }
 
 .footer-input {
