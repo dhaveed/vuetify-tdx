@@ -12,7 +12,7 @@
                 <div class="d-flex value-added">
                   <div class="outline1">
                     <div class="outline2">
-                      <div class="icon-bg-service">
+                      <div class="icon-bg-service icon-bg-service-airtime">
                         <span class=" icon-service1 text-primary">
                           <i
                             class="fa fa-mobile fa-5x"
@@ -33,7 +33,7 @@
             <div class="col-md-2 " style="padding-left: 0px;">
               <a href="#">
                 <div class="d-flex value-added">
-                  <div class="icon-bg-service">
+                  <div class="icon-bg-service icon-bg-service-tv">
                     <span class=" icon-service1 text-warning">
                       <i
                         class="fa fa-television"
@@ -52,7 +52,7 @@
             <div class="col-md-2 " style="padding-left: 0px;">
               <a href="#">
                 <div class="d-flex value-added">
-                  <div class="icon-bg-service">
+                  <div class="icon-bg-service icon-bg-service-electricity">
                     <span class=" icon-service1 text-secondary">
                       <i
                         class="fa fa-bolt"
@@ -71,7 +71,7 @@
             <div class="col-md-2" style="padding-left: 0px;">
               <a href="#">
                 <div class="d-flex value-added">
-                  <div class="icon-bg-service">
+                  <div class="icon-bg-service icon-bg-service-flight">
                     <span class=" icon-service1 text-primary">
                       <i
                         class="fa fa-plane fa-3x"
@@ -90,7 +90,7 @@
             <div class="col-md-2" style="padding-left: 0px;">
               <a href="#">
                 <div class="d-flex value-added">
-                  <div class="icon-bg-service">
+                  <div class="icon-bg-service icon-bg-service-hotel">
                     <span class=" icon-service1 text-warning">
                       <i
                         class="fa fa-bed"

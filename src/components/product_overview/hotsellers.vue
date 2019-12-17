@@ -35,6 +35,7 @@
                 /></a>
               </div>
             </div>
+
             <div class="short-description-1 hot-sellers-name-tx clearfix">
               <div class="category-title-tx"><p>Join Hot Sellers</p></div>
 
@@ -72,14 +73,16 @@
                         <div class="new-hot-sellers">new</div>
                       </div>
                     </div>
-
+                    <!-- <div class="add-ribbon">
+                      <i class="fa fa-user-plus"></i>
+                    </div> -->
                     <div
                       class="short-description-1 hot-sellers-name-tx clearfix"
                     >
                       <div class="category-title-tx"><p>Obed Nwankwo</p></div>
 
                       <div class="follow">
-                        <p>Follow</p>
+                        <p><i class="fa fa-user-plus"></i> Follow</p>
                       </div>
                     </div>
                   </div>
@@ -114,7 +117,7 @@
                       <div class="category-title-tx"><p>Justin Peace</p></div>
 
                       <div class="follow">
-                        <p>Follow</p>
+                        <p><i class="fa fa-user-plus"></i> Follow</p>
                       </div>
                     </div>
                   </div>
@@ -148,8 +151,8 @@
                     >
                       <div class="category-title-tx"><p>Yusuff Isa</p></div>
 
-                      <div class="follow">
-                        <p>Follow</p>
+                       <div class="follow">
+                        <p><i class="fa fa-user-plus"></i> Follow</p>
                       </div>
                     </div>
                   </div>
@@ -183,8 +186,8 @@
                     >
                       <div class="category-title-tx"><p>Yemi Olumide</p></div>
 
-                      <div class="follow">
-                        <p>Follow</p>
+                       <div class="follow">
+                        <p><i class="fa fa-user-plus"></i> Follow</p>
                       </div>
                     </div>
                   </div>
@@ -218,8 +221,8 @@
                     >
                       <div class="category-title-tx"><p>Esiri Justice</p></div>
 
-                      <div class="follow">
-                        <p>Follow</p>
+                       <div class="follow">
+                        <p><i class="fa fa-user-plus"></i> Follow</p>
                       </div>
                     </div>
                   </div>

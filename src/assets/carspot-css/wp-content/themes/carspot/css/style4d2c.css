@@ -7507,6 +7507,15 @@ ul.listingViewIcon li.shortByListingLi ul li a {
     z-index: 1
 }
 
+.add-ribbon {
+    position: absolute;
+    right: 10px;
+    text-align: left;
+    top: 10px;
+    width: 13px;
+    z-index: 1
+}
+
 .featured-ribbon {
     height: 75px;
     overflow: hidden;
@@ -14908,12 +14917,32 @@ hr.accent-2 {
 
 .icon-bg-service {
     background-color: #333;
-    border-radius: 50%;
+    border-radius: 14%;
     width: 45px;
     height: 45px;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.icon-bg-service-airtime {
+    background-color: #785edd!important;
+}
+
+.icon-bg-service-tv {
+    background-color: #4d96f0!important;
+}
+
+.icon-bg-service-electricity {
+    background-color: #4baf50!important;
+}
+
+.icon-bg-service-flight {
+    background-color: #f0ad4d!important;
+}
+
+.icon-bg-service-hotel {
+    background-color: #5eddd1!important;
 }
 
 .sticky-wrapper.is-sticky .horizontal-main {
