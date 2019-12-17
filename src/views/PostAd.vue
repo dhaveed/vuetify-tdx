@@ -38,7 +38,7 @@ export default {
 </script>
 
 <style>
-  .select2-container .select2-selection.select2-selection--single {
-    border: none!important;
-  }
+.select2-container .select2-selection.select2-selection--single {
+  border: none !important;
+}
 </style>

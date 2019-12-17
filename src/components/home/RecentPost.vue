@@ -5,7 +5,7 @@
       <div class="section-title center-block text-center">
         <h2 style="display: inline-block; margin-left: 92px">Recent Posts</h2>
         <div class="viewall">
-          <a href="">Show All</a>
+          <a href="">Show All <i class="fa fa-arrow-circle-right"></i></a>
         </div>
         <!-- <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p> -->
       </div>

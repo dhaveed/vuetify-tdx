@@ -641,11 +641,11 @@
 	color: #fff;
 }
  .horizontalMenu>.horizontalMenu-list>li:hover>a {
-	background-color: #4CAF50!important  ;
+	background-color: none!important  ;
 	color: #fff !important;
 }
  .horizontalMenu>.horizontalMenu-list>li:hover>a .fa {
-    background-color: #00BF8F!important  ;
+    background-color: none!important  ;
     color: #fff !important;
 }
  .horizontalMenu>.horizontalMenu-list>li>ul.sub-menu>li:hover>a {
@@ -1039,7 +1039,7 @@
     background-color: #ed5151;
 }
  .sticky-wrapper.relative.banners .horizontalMenu>.horizontalMenu-list>li:hover>a {
-    background-color: #ed5151;
+    background-color: none;
 }
  .pricingTable2.pink .pricing-plans {
     background-color: #ed5151;
@@ -1154,7 +1154,7 @@
 	 background: #ed5151;
 }
 .sticky-wrapper.absolute.banners .horizontalMenu>.horizontalMenu-list>li:hover>a {
-  background-color: #ed5151;
+  background-color: none;
   color: #fff!important;
 }
 .sticky-wrapper.absolute.banners .horizontalMenu>.horizontalMenu-list>li>a.active {

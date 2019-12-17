@@ -328,9 +328,60 @@
     <!--/Header -->
 
     <!--Start Horizontal-main -->
-    <div class="horizontal-main bg-dark-transparent clearfix">
+    <div class="main-nav ">
+      <div class="container">
+        <div class="row ">
+        <div class="col-md-2">
+          <div class="desktoplogo-tdx">
+            <a href="index.html"
+              ><img src="../assets/images/brand/TRADEXPLORAV3.1.png" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="all-categories header-search">
+            <button class="btn ">
+              <i class="fa fa-bars" style="color: #4CAF50"></i> All Categories
+            </button>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="header-search row">
+            <div class="form-group col-xl-12 col-lg-12 col-md-12 mb-0  ">
+              <input
+                type="text"
+                class="form-control input-lg br-tr-md-0 br-br-md-0 main-search"
+                id="text4"
+                placeholder="Search products, brands and categories"
+              />
+              <span><i class="fa fa-search location-gps mr-1"></i></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="call-us-now">
+            <div class="contact-in-header">
+              <i class="flaticon-customer-service"></i>
+              <p
+                style="color: #999; float: right; line-height: 25px; margin-left: 10px; margin-top: 10px; font-size: 16px;"
+              >
+                Call Us Now
+                <br />
+                <strong
+                  style="font-size: 20px; color: #4CAF50; font-weight: 600!important;"
+                  >(+234) 811-111-1808</strong
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      
+    </div>
+    <!-- <div class="horizontal-main bg-dark-transparent clearfix">
       <div class="horizontal-mainwrapper container clearfix">
-        <!--Nav-->
+        Nav
         <nav class="horizontalMenu clearfix d-md-flex">
           <div class="desktoplogo">
             <a href="index.html"
@@ -343,7 +394,7 @@
             /></a>
           </div>
           <ul class="horizontalMenu-list" style="margin-top: 12px;">
-            <li aria-haspopup="true"><a href="about.html"> Airtime </a></li>
+            <li aria-haspopup="true"><a href="about.html"> <i class="fa fa-bars" style="color: #4CAF50; margin-bottom: -3px;"></i> All Categories </a></li>
             <li aria-haspopup="true"><a href="#"> Data </a></li>
             <li aria-haspopup="true"><a href="#"> TV </a></li>
             <li aria-haspopup="true">
@@ -354,6 +405,22 @@
             <li aria-haspopup="true"><a href="#"> More Services </a></li>
             <li aria-haspopup="true" class="d-lg-none mt-5 pb-5 mt-lg-0"></li>
           </ul>
+          <div class="all-categories">
+            <button class="btn "> <i class="fa fa-bars" style="color: #4CAF50"></i> All Categories </button>
+          </div>
+          <div class="header-search row">
+            <div class="form-group  col-xl-12 col-lg-12 col-md-12 mb-0  ">
+                    <input
+                      type="text"
+                      class="form-control input-lg br-tr-md-0 br-br-md-0 main-search"
+                      id="text4"
+                      placeholder="Search products, brands and categories"
+                    />
+                    <span
+                      ><i class="fa fa-search location-gps mr-1"></i
+                    ></span>
+                  </div>
+          </div>
           <div class="call-us-now">
             <div class="contact-in-header">
               <i class="flaticon-customer-service"></i>
@@ -371,7 +438,7 @@
           </div>
         </nav>
       </div>
-    </div>
+    </div> -->
   </div>
   <!--/Horizontal-main -->
 </template>
@@ -380,8 +447,26 @@
 export default {
   name: "topbar"
 };
-
-
 </script>
 
-<style></style>
+<style>
+.main-nav {
+  overflow: hidden;
+  background-color: #fff;
+}
+
+/*.main-nav {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}*/
+
+.main-nav .desktoplogo-tdx {
+  width: 10rem;
+  padding: 1.5rem 1.5rem;
+}
+</style>
