@@ -16,6 +16,9 @@
             >
           </div>
         </div>
+        <div class="gridlist-seller">
+          
+        </div>
         <div class="col-xs-6 col-sm-4 col-md-2 col-join-tx">
           <div class="category-grid-box-1 category-grid-box-tx">
             <div class="hot-ribbon">
@@ -32,7 +35,6 @@
                 /></a>
               </div>
             </div>
-
             <div class="short-description-1 hot-sellers-name-tx clearfix">
               <div class="category-title-tx"><p>Join Hot Sellers</p></div>
 
@@ -43,7 +45,9 @@
           </div>
         </div>
 
-        <div class="col-xs-6 col-sm-8 col-md-10">
+
+        <div class="grid-list-slide">
+                  <div class="col-xs-6 col-sm-8 col-md-10 gridlist-slide">
           <div class="short-feature-body">
             <div class="featured-slider-1 owl-carousel owl-theme">
               <div class="item">
@@ -74,8 +78,7 @@
                     >
                       <div class="category-title-tx"><p>Obed Nwankwo</p></div>
 
-                      <div class="follow-user">
-                        <i class="fa fa-user-plus"></i>
+                      <div class="follow">
                         <p>Follow</p>
                       </div>
                     </div>
@@ -225,6 +228,8 @@
             </div>
           </div>
         </div>
+        </div>
+
       </div>
     </div>
   </div>
