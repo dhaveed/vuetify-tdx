@@ -5,7 +5,9 @@
       <div class="section-title center-block text-center">
         <h2 style="display: inline-block; margin-left: 92px">Featured Ads</h2>
         <div class="viewall">
-          <router-link to="/Gridlist">Show All</router-link>
+          <router-link to="/Gridlist"
+            >Show All <i class="fa fa-arrow-circle-right"></i
+          ></router-link>
         </div>
       </div>
       <div id="myCarousel2" class="owl-carousel owl-carousel-icons2">

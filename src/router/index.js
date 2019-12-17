@@ -155,7 +155,7 @@ const routes = [
     name: "postad",
     component: () => import("../views/PostAd.vue"),
     meta: {
-      header: 3
+      header: 1
     }
   },
   {

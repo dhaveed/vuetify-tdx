@@ -1,6 +1,6 @@
 <template>
   <div id="categories">
-    <section>
+    <!-- <section>
       <div
         class="bannerimg cover-image bg-background3"
         data-image-src="../assets/images/banners/banner2.jpg"
@@ -23,10 +23,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!--/Breadcrumb-->
     <!--Section-->
-    <section class="sptb bg-white">
+    <!-- <section class="sptb bg-white">
       <div class="container">
         <div class="section-title center-block text-center">
           <h2>Categories</h2>
@@ -199,7 +199,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!--/Section-->
 
     <!--Section-->

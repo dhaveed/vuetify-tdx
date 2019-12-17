@@ -1,4 +1,4 @@
-<template>
+footer<template>
   <!--Footer Section-->
   <section>
     <footer class="footer-bg">
@@ -128,6 +128,11 @@
                       ><img src="../assets/images/paystack-02.jpg"
                     /></a>
                   </li>
+                  <li style=" width: 80px!important;">
+                    <a href="javascript:; "
+                      ><img src="../assets/images/varve-logo-2.png"
+                    /></a>
+                  </li>
                   <li>
                     <a href="javascript:;"
                       ><img
@@ -140,11 +145,6 @@
                       ><img
                         class="payment-card-icon-tx"
                         src="../assets/images/master_card.png"
-                    /></a>
-                  </li>
-                  <li style=" width: 88px!important;">
-                    <a href="javascript:; "
-                      ><img src="../assets/images/varve-logo-2.png"
                     /></a>
                   </li>
                 </ul>
