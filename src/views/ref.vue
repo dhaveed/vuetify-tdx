@@ -1,6 +1,21 @@
 <template>
-  <div class="referal">
-    referal page from imm
+  <div class="referral generic-wrapper">
+    <div class="referral-header">
+      <img src="../assets/iconfonts/referral.svg" alt="referral" class="referral-img">
+      <h1>Invite friends to Clipchamp</h1>
+      <h2>Share a Clipchamp with a friend using the link below and when they sign up you both get <strong>1 month free</strong></h2>
+    </div>
+
+    <div class="referral-input-box">
+       <input type="text" class="referral-input">
+      <button class="referral-btn">COPY</button>
+    </div>
+    <div class="referral-links">
+      <img src="https://img.icons8.com/color/48/000000/facebook-new.png">
+      <img src="https://img.icons8.com/color/48/000000/twitter.png">
+      <img src="https://img.icons8.com/color/48/000000/linkedin.png">
+      <img src="https://img.icons8.com/color/48/000000/whatsapp.png">
+    </div>
   </div>
 </template>
 

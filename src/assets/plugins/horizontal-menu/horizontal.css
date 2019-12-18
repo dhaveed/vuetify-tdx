@@ -70,7 +70,7 @@
 .horizontalMenu>.horizontalMenu-list {
 	text-align: left;
 	margin: 0 auto 0 auto;
-	width: auto!important;
+	width: 100%!important;
 	display: block;
 	padding: 0;
 }
