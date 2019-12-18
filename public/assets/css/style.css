@@ -130,6 +130,10 @@
   height: 10rem !important;
 }
 
+.boxicon {
+  width: 104px !important;
+}
+
 /*------- Bootstrap Framework -------*/
 *, ::after, ::before {
 	box-sizing: border-box;
