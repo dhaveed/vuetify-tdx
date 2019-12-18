@@ -331,53 +331,52 @@
     <div class="main-nav ">
       <div class="container">
         <div class="row ">
-        <div class="col-md-2">
-          <div class="desktoplogo-tdx">
-            <a href="index.html"
-              ><img src="../assets/images/brand/TRADEXPLORAV3.1.png" alt=""
-            /></a>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <div class="all-categories header-search">
-            <button class="btn ">
-              <i class="fa fa-bars" style="color: #4CAF50"></i> All Categories
-            </button>
-          </div>
-        </div>
-        <div class="col-md-5">
-          <div class="header-search row">
-            <div class="form-group col-xl-12 col-lg-12 col-md-12 mb-0  ">
-              <input
-                type="text"
-                class="form-control input-lg br-tr-md-0 br-br-md-0 main-search"
-                id="text4"
-                placeholder="Search products, brands and categories"
-              />
-              <span><i class="fa fa-search location-gps mr-1"></i></span>
+          <div class="col-md-2">
+            <div class="desktoplogo-tdx">
+              <a href="index.html"
+                ><img src="../assets/images/brand/TRADEXPLORAV3.1.png" alt=""
+              /></a>
             </div>
           </div>
-        </div>
-        <div class="col-md-3">
-          <div class="call-us-now">
-            <div class="contact-in-header">
-              <i class="flaticon-customer-service"></i>
-              <p
-                style="color: #999; float: right; line-height: 25px; margin-left: 10px; margin-top: 10px; font-size: 16px;"
-              >
-                Call Us Now
-                <br />
-                <strong
-                  style="font-size: 20px; color: #4CAF50; font-weight: 600!important;"
-                  >(+234) 811-111-1808</strong
+          <div class="col-md-2">
+            <div class="all-categories header-search">
+              <button class="btn ">
+                <i class="fa fa-bars" style="color: #4CAF50"></i> All Categories
+              </button>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="header-search row">
+              <div class="form-group col-xl-12 col-lg-12 col-md-12 mb-0  ">
+                <input
+                  type="text"
+                  class="form-control input-lg br-tr-md-0 br-br-md-0 main-search"
+                  id="text4"
+                  placeholder="Search products, brands and categories"
+                />
+                <span><i class="fa fa-search location-gps mr-1"></i></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="call-us-now">
+              <div class="contact-in-header">
+                <i class="flaticon-customer-service"></i>
+                <p
+                  style="color: #999; float: right; line-height: 25px; margin-left: 10px; margin-top: 10px; font-size: 16px;"
                 >
-              </p>
+                  Call Us Now
+                  <br />
+                  <strong
+                    style="font-size: 20px; color: #4CAF50; font-weight: 600!important;"
+                    >(+234) 811-111-1808</strong
+                  >
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      </div>
-      
     </div>
     <!-- <div class="horizontal-main bg-dark-transparent clearfix">
       <div class="horizontal-mainwrapper container clearfix">
