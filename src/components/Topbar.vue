@@ -330,7 +330,7 @@
     <!--Start Horizontal-main -->
     <div class="main-nav ">
       <div class="container">
-        <div class="row ">
+        <div class="row home-header-custom">
           <div class="col-md-2">
             <div class="desktoplogo-tdx">
               <a href="index.html"
