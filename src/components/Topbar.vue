@@ -334,7 +334,7 @@
           <div class="col-md-2">
             <div class="desktoplogo-tdx">
               <a href="index.html"
-                ><img src="../assets/images/brand/TRADEXPLORAV3.1.png" alt=""
+                ><img src="../assets/images/brand/logobig.png" alt=""
               /></a>
             </div>
           </div>
@@ -347,7 +347,7 @@
           </div>
           <div class="col-md-5">
             <div class="header-search row">
-              <div class="form-group col-xl-12 col-lg-12 col-md-12 mb-0  ">
+              <div class="col-xl-10 col-lg-12 col-md-12 mb-0  ">
                 <input
                   type="text"
                   class="form-control input-lg br-tr-md-0 br-br-md-0 main-search"
@@ -356,6 +356,7 @@
                 />
                 <span><i class="fa fa-search location-gps mr-1"></i></span>
               </div>
+              <button class="header-search-button">Search</button>
             </div>
           </div>
           <div class="col-md-3">

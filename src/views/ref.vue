@@ -1,5 +1,6 @@
 <template>
-  <div class="referral generic-wrapper">
+  <div> 
+    <div class="referral generic-wrapper">
     <div class="referral-header">
       <img src="../assets/iconfonts/referral.svg" alt="referral" class="referral-img">
       <h1>Invite friends to Clipchamp</h1>
@@ -16,6 +17,30 @@
       <img src="https://img.icons8.com/color/48/000000/linkedin.png">
       <img src="https://img.icons8.com/color/48/000000/whatsapp.png">
     </div>
+
+    <div class="referral-bottom">
+      <h1>How it works</h1>
+      <div class="referral-bottombox">
+        <div class="referral-box">
+          <img src="https://img.icons8.com/ios/50/000000/invite.png">
+          <h1>Invite your friends</h1>
+          <p>Send your unique links to your friends inviting them to Clipchamp</p>
+        </div>
+
+        <div class="referral-box">
+          <img src="https://img.icons8.com/dotty/50/000000/add-user-male.png">
+          <h1>They sign up</h1>
+          <p>When your friends sign up your invitation is complete</p>
+        </div>
+
+        <div class="referral-box">
+          <img src="https://img.icons8.com/pastel-glyph/50/000000/trophy--v2.png">
+           <h1>Get 1 month free</h1>
+          <p>Your friend will get 1 month free and you will get 1 month free on your existing plan</p>
+        </div>
+      </div>
+  </div>
+  </div>
   </div>
 </template>
 

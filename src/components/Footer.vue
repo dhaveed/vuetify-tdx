@@ -8,10 +8,10 @@ footer<template>
             <div class="col-lg-3 col-md-12">
               <router-link to="/Home">
                 <img
-                  src="../assets/images/footer-logo.png"
-                  class="img-responsive"
+                  src="../assets/images/brand/logosmall.png"
+                  class="img-responsive footer-logo"
                   alt="Site logo"
-                  style="margin-bottom: 1rem"
+                  style="margin-bottom: 1rem, width: 120px"
                 />
               </router-link>
               <hr
